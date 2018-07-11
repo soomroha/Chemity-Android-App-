@@ -36,7 +36,12 @@ class Topic1QuestionsLibrary {
         if(questionTypesSeen.size == numberOfQuestionTypes){
 
             questionTypesSeen.clear()
+            // Theory questions should not be repeated
+            questionTypesSeen.add(8)
+            questionTypesSeen.add(9)
+            questionTypesSeen.add(10)
         }
+
 
 
         var i = r.nextInt(8) + 1
