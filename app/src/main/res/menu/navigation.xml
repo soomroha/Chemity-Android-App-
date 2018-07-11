@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/learn"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Learn"/>
+
+    <item
+        android:id="@+id/practice"
+        android:icon="@drawable/learn_icon2"
+        android:title="Practice"/>
+
+    <item
+        android:id="@+id/tools"
+        android:icon="@drawable/learn_icon"
+        android:title="Tools"/>
+
+    <item
+        android:id="@+id/leaderboard"
+        android:icon="@drawable/learn_icon"
+        android:title="Leaderboard"/>
+
+</menu>

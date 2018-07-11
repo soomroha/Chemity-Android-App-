@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+    Google Play game services IDs.
+    Save this file as res/values/games-ids.xml in your project.
+    -->
+<resources>
+<!-- app_id -->
+<string name="app_id" translatable="false">802712763321</string>
+<!-- package_name -->
+<string name="package_name" translatable="false">com.example.android.chemapp</string>
+<!-- leaderboard Atoms, Ions, Compounds -->
+<string name="leaderboard_atoms_ions_compounds_id" translatable="false">CgkIufeiq64XEAIQAA</string>
+</resources>
