@@ -49,12 +49,13 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/topic2"
+                android:id="@+id/topicperiodictable"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:orientation="horizontal">
 
                 <ImageView
+                    android:id="@+id/topicperiodictableImage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -65,8 +66,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Periodic Table"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:text="Periodic Table" />
 
                 <ProgressBar
                     style="?android:attr/progressBarStyle"

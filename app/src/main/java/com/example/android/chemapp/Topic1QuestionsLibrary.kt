@@ -38,9 +38,9 @@ class Topic1QuestionsLibrary {
             questionTypesSeen.clear()
             // Theory questions should not be repeated
             questionTypesSeen.add(8)
-            questionTypesSeen.add(9)
-            questionTypesSeen.add(10)
-        }
+        questionTypesSeen.add(9)
+        questionTypesSeen.add(10)
+    }
 
 
 

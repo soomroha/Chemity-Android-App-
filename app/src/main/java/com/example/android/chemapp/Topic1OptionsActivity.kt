@@ -25,7 +25,6 @@ class Topic1OptionsActivity : AppCompatActivity() {
         setContentView(R.layout.topic1_options)
 
         topic1Practice.setOnClickListener(){
-
             val intent = Intent(this@Topic1OptionsActivity, Topic1QuizActivity::class.java)
             startActivity(intent)
         }

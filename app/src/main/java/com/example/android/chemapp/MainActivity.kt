@@ -78,6 +78,14 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         })
+        topicperiodictable.setOnClickListener(object: View.OnClickListener {
+            override  fun onClick(view: View): Unit {
+                //for periodic table section
+                val intent = Intent(this@MainActivity , TopicPeriodicTableOptionsActivity::class.java)
+                startActivity(intent)
+            }
+        })
+
 
 
     }

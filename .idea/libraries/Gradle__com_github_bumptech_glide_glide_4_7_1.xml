@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bumptech.glide:glide-4.7.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/gradle-4.8/caches/transforms-1/files-1.1/glide-4.7.1.aar/4c74b5ae3596d6e3f1e95a93f1e5c119/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Downloads/gradle-4.8/caches/transforms-1/files-1.1/glide-4.7.1.aar/4c74b5ae3596d6e3f1e95a93f1e5c119/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/5d95b4ee0f3fcfd0a7baeb50afc2fe22/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/5d95b4ee0f3fcfd0a7baeb50afc2fe22/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/Downloads/gradle-4.8/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.7.1/835685a4ca352a1c6d5f724088432ae950e04bac/glide-4.7.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.7.1/835685a4ca352a1c6d5f724088432ae950e04bac/glide-4.7.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

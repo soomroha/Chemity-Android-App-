@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainGrid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="8"
+    android:alignmentMode="alignMargins"
+    android:columnCount="2"
+    android:columnOrderPreserved="false"
+    android:padding="14dp"
+    android:rowCount="2">
+
+
+    <LinearLayout
+        android:id="@+id/topicperiodictableLearn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/learnImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/learn" />
+
+        <TextView
+            android:id="@+id/learnTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Learn"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topicperiodictablePractice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/practiceImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/practice" />
+
+        <TextView
+            android:id="@+id/practiceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Practice"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topicperiodictableMiniGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/minigameImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/minigame" />
+
+        <TextView
+            android:id="@+id/minigameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="MiniGames"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topicperiodictableLeaderboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/leaderboardImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/leaderboard" />
+
+        <TextView
+            android:id="@+id/leaderboardTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Leaderboard"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+</GridLayout>
+
