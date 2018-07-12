@@ -18,34 +18,29 @@ class TopicPeriodicTableOptionsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.topicperiodictable_options)
-        Toast.makeText(this, "Test Test", Toast.LENGTH_SHORT).show()
-
         topicperiodictablePractice.setOnClickListener(){
             val intent = Intent(this@TopicPeriodicTableOptionsActivity, TopicPeriodicTableQuizActivity::class.java)
             startActivity(intent)
         }
-        /**
-        topicPeriodicTableLeaderboard.setOnClickListener(){
+
+        topicperiodictableLeaderboard.setOnClickListener(){
 
         val acc = GoogleSignIn.getLastSignedInAccount(this)
         if( acc == null){
-        Toast.makeText(this, "You need to sign in!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "You need to sign in!", Toast.LENGTH_SHORT).show()
         }
         else {
-        val leaderBoardClient = Games.getLeaderboardsClient(this@TopicPeriodicTableOptionsActivity, acc)
-        Games.getLeaderboardsClient(this, acc)
-        .getLeaderboardIntent(getString(R.string.leaderboard_atoms_ions_compounds_id))
-        .addOnSuccessListener {
-        //Toast.makeText(this, "success", Toast.LENGTH_SHORT).show()
-        intent -> ActivityCompat.startActivityForResult(this, intent, RC_LEADERBOARD_UI, null)
-        Toast.makeText(this, "success", Toast.LENGTH_SHORT).show()
-        }
+            val leaderBoardClient = Games.getLeaderboardsClient(this@TopicPeriodicTableOptionsActivity, acc)
+            Games.getLeaderboardsClient(this, acc)
+            .getLeaderboardIntent(getString(R.string.leaderboard_atoms_ions_compounds_id))
+            .addOnSuccessListener {
+            //Toast.makeText(this, "success", Toast.LENGTH_SHORT).show()
+            intent -> ActivityCompat.startActivityForResult(this, intent, RC_LEADERBOARD_UI, null)
+            Toast.makeText(this, "success", Toast.LENGTH_SHORT).show()
+            }
         }
 
         }
-         */
+
     }
-
-
-
 }

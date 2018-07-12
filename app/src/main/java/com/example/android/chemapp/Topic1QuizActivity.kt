@@ -146,12 +146,10 @@ class Topic1QuizActivity : AppCompatActivity() {
             val acct = GoogleSignIn.getLastSignedInAccount(this)
 
             if(acct != null){
-
                 Games.getLeaderboardsClient(this, acct)
                         .submitScore(getString(R.string.leaderboard_atoms_ions_compounds_id), current_score.toLong())
 
             }
-
 
             val intent = Intent(this@Topic1QuizActivity, Topic1QuizSummaryActivity::class.java)
             startActivity(intent)

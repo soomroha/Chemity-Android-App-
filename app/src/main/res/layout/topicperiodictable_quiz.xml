@@ -11,11 +11,11 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".Topic1QuizActivity">
+    tools:context=".TopicPeriodicTableQuizActivity">
 
 
     <TextView
-        android:id="@+id/score"
+        android:id="@+id/topicperiodictablescore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -26,7 +26,7 @@
         tools:text="Score: 12/15" />
 
     <TextView
-        android:id="@+id/numQuestions"
+        android:id="@+id/topicperiodictablenumQuestions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -37,7 +37,7 @@
         tools:text="Q: 12/15" />
 
     <TextView
-        android:id="@+id/textView_countdown"
+        android:id="@+id/topicperiodictabletextView_countdown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -50,7 +50,7 @@
         tools:text="10:00" />
 
     <me.zhanghai.android.materialprogressbar.MaterialProgressBar
-        android:id="@+id/progress_countdown"
+        android:id="@+id/topicperiodictableprogress_countdown"
         style="@style/Widget.MaterialProgressBar.ProgressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
         android:minWidth="75dp" />
 
     <Button
-        android:id="@+id/answer4"
+        android:id="@+id/topicperiodictableanswer4"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_above="@+id/answer2"
@@ -69,7 +69,7 @@
         android:text="Button" />
 
     <TextView
-        android:id="@+id/question"
+        android:id="@+id/topicperiodictablequestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -80,7 +80,7 @@
         android:textSize="24dp" />
 
     <Button
-        android:id="@+id/answer2"
+        android:id="@+id/topicperiodictableanswer2"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
@@ -89,7 +89,7 @@
         android:text="Button" />
 
     <Button
-        android:id="@+id/answer1"
+        android:id="@+id/topicperiodictableanswer1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_above="@+id/answer4"
@@ -97,7 +97,7 @@
         android:text="Button" />
 
     <Button
-        android:id="@+id/answer3"
+        android:id="@+id/topicperiodictableanswer3"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
