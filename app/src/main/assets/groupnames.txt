@@ -1,0 +1,8 @@
+Alkali metals lithium(Li) sodium(Na) potassium(K) rubidium(Rb) caesium(Cs) francium(Fr)
+alkaline earth metals beryllium(Be) magnesium(Mg) calcium(Ca) strontium(Sr) barium(Ba) radium(Ra)
+Metalloids boron(B) Silicon(Si) Germanium(Ge) Arsenic(As) Antimony(Sb)　Tellurium(Te) Astatine(At)
+Halogens fluorine(F) chlorine(Cl) bromine(Br) iodine(I)
+noble gases helium(He) neon(Ne) argon(Ar) krypton(Kr) xenon(Xe) radon(Rn)
+
+
+
