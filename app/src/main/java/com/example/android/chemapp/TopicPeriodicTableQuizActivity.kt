@@ -14,12 +14,12 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.topic1_quiz.*
 
 class TopicPeriodicTableQuizActivity : AppCompatActivity() {
-    var questions = TopicPeriodicTableQuestionsLibrary()
+    var topicperiodictablequestions = TopicPeriodicTableQuestionsLibrary()
     var correctAnswer : String? = null
     var current_score = 0
     val r = Random()
     var current_questions = 0
-    var total_questions = questions.obtainTotalNumberofQuestions()
+    var total_questions = topicperiodictablequestions.obtainTotalNumberofQuestions()
 
     private lateinit var countDownTimer : CountDownTimer
     private val COUNTDOWN_IN_MILLIS : Long = 40000
@@ -40,54 +40,56 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
             val symbol = str[1]
             val atomicNumber = str[2]
             val atomicWeight = Math.ceil(str[3].toDouble()).toInt().toString()
-
-            questions.addElementInfo(element, symbol, atomicNumber, atomicWeight)
+            val unknownnum = Math.ceil(str[4].toDouble()).toInt().toString()
+            val numValence = Math.ceil(str[4].toDouble()).toInt().toString()
+            val group = str[5]
+            topicperiodictablequestions.addElementInfo(element, symbol, atomicNumber, atomicWeight, unknownnum, numValence, group)
         }
 
-        score.text = "Score: $current_score / $total_questions"
-        numQuestions.text = "Q: $current_questions / $total_questions"
+        topicperiodictablescore.text = "Score: $current_score / $total_questions"
+        topicperiodictablenumQuestions.text = "Q: $current_questions / $total_questions"
         updateQuestion()
 
-        answer1.setOnClickListener{
-            if(answer1.text.toString() == this.correctAnswer){
+        topicperiodictableanswer1.setOnClickListener{
+            if(topicperiodictableanswer1.text.toString() == this.correctAnswer){
                 this.current_score++
-                score.text = "Score: $current_score / $total_questions"
+                topicperiodictablescore.text = "Score: $current_score / $total_questions"
             }
             this.current_questions++
-            numQuestions.text = "Q: $current_questions / $total_questions"
+            topicperiodictablenumQuestions.text = "Q: $current_questions / $total_questions"
             countDownTimer.cancel()
             updateQuestion()
         }
 
-        answer2.setOnClickListener{
-            if(answer2.text.toString() == this.correctAnswer){
+        topicperiodictableanswer2.setOnClickListener{
+            if(topicperiodictableanswer2.text.toString() == this.correctAnswer){
                 this.current_score++
-                score.text = "Score: $current_score / $total_questions"
+                topicperiodictablescore.text = "Score: $current_score / $total_questions"
             }
             this.current_questions++
-            numQuestions.text = "Q: $current_questions / $total_questions"
+            topicperiodictablenumQuestions.text = "Q: $current_questions / $total_questions"
             countDownTimer.cancel()
             updateQuestion()
         }
 
-        answer3.setOnClickListener{
+        topicperiodictableanswer3.setOnClickListener{
             if(answer3.text.toString() == this.correctAnswer){
                 this.current_score++
-                score.text = "Score: $current_score / $total_questions"
+                topicperiodictablescore.text = "Score: $current_score / $total_questions"
             }
             this.current_questions++
-            numQuestions.text = "Q: $current_questions / $total_questions"
+            topicperiodictablenumQuestions.text = "Q: $current_questions / $total_questions"
             countDownTimer.cancel()
             updateQuestion()
         }
 
-        answer4.setOnClickListener{
-            if(answer4.text.toString() == this.correctAnswer){
+        topicperiodictableanswer4.setOnClickListener{
+            if(topicperiodictableanswer4.text.toString() == this.correctAnswer){
                 this.current_score++
-                score.text = "Score: $current_score / $total_questions"
+                topicperiodictablescore.text = "Score: $current_score / $total_questions"
             }
             this.current_questions++
-            numQuestions.text = "Q: $current_questions / $total_questions"
+            topicperiodictablenumQuestions.text = "Q: $current_questions / $total_questions"
             countDownTimer.cancel()
             updateQuestion()
         }
@@ -109,41 +111,41 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
 
         }
         else{
-            question.text = questions.getQuestion()
+            topicperiodictablequestion.text = topicperiodictablequestions.getQuestion()
 
             val j = r.nextInt(4)
 
             if(j == 0){
-                answer1.text = questions.obtainCorrectAnswer()
-                answer2.text = questions.obtainChoice2()
-                answer3.text = questions.obtainChoice3()
-                answer4.text = questions.obtainChoice1()
+                topicperiodictableanswer1.text = topicperiodictablequestions.obtainCorrectAnswer()
+                topicperiodictableanswer2.text = topicperiodictablequestions.obtainChoice2()
+                answer3.text = topicperiodictablequestions.obtainChoice3()
+                topicperiodictableanswer4.text = topicperiodictablequestions.obtainChoice1()
 
             }
             else if(j == 1){
 
-                answer1.text = questions.obtainChoice2()
-                answer2.text = questions.obtainCorrectAnswer()
-                answer3.text = questions.obtainChoice3()
-                answer4.text = questions.obtainChoice1()
+                topicperiodictableanswer1.text = topicperiodictablequestions.obtainChoice2()
+                topicperiodictableanswer2.text = topicperiodictablequestions.obtainCorrectAnswer()
+                answer3.text = topicperiodictablequestions.obtainChoice3()
+                topicperiodictableanswer4.text = topicperiodictablequestions.obtainChoice1()
 
             }
             else if(j== 2){
 
-                answer1.text = questions.obtainChoice2()
-                answer2.text = questions.obtainChoice3()
-                answer3.text = questions.obtainCorrectAnswer()
-                answer4.text = questions.obtainChoice1()
+                topicperiodictableanswer1.text = topicperiodictablequestions.obtainChoice2()
+                topicperiodictableanswer2.text = topicperiodictablequestions.obtainChoice3()
+                answer3.text = topicperiodictablequestions.obtainCorrectAnswer()
+                topicperiodictableanswer4.text = topicperiodictablequestions.obtainChoice1()
             }
             else{
 
-                answer1.text = questions.obtainChoice2()
-                answer2.text = questions.obtainChoice3()
-                answer3.text = questions.obtainChoice1()
-                answer4.text = questions.obtainCorrectAnswer()
+                topicperiodictableanswer1.text = topicperiodictablequestions.obtainChoice2()
+                topicperiodictableanswer2.text = topicperiodictablequestions.obtainChoice3()
+                topicperiodictableanswer3.text = topicperiodictablequestions.obtainChoice1()
+                topicperiodictableanswer4.text = topicperiodictablequestions.obtainCorrectAnswer()
             }
 
-            this.correctAnswer = questions.obtainCorrectAnswer()
+            this.correctAnswer = topicperiodictablequestions.obtainCorrectAnswer()
 
             timeLeftInMillis = COUNTDOWN_IN_MILLIS
             startCountDown()
@@ -151,13 +153,13 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
 
     }
     private fun startCountDown(){
-        progress_countdown.max = (COUNTDOWN_IN_MILLIS / 1000).toInt()
+        topicperiodictableprogress_countdown.max = (COUNTDOWN_IN_MILLIS / 1000).toInt()
 
         countDownTimer = object : CountDownTimer(timeLeftInMillis, 1000){
             override fun onFinish() {
                 timeLeftInMillis = 0
                 current_questions++
-                numQuestions.text = "Q: $current_questions / $total_questions"
+                topicperiodictablenumQuestions.text = "Q: $current_questions / $total_questions"
                 updateCountdownUI()
                 updateQuestion()
 
@@ -177,8 +179,8 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
         val minutesUntilFinished = secondsRemaining / 60
         val secondsInMinuteUntilFinished = secondsRemaining - minutesUntilFinished * 60
         val secondsStr = secondsInMinuteUntilFinished.toString()
-        textView_countdown.text = "$minutesUntilFinished:${if (secondsStr.length == 2) secondsStr else "0" + secondsStr}"
-        progress_countdown.progress = (timerLengthSeconds - secondsRemaining).toInt()
+        topicperiodictabletextView_countdown.text = "$minutesUntilFinished:${if (secondsStr.length == 2) secondsStr else "0" + secondsStr}"
+        topicperiodictableprogress_countdown.progress = (timerLengthSeconds - secondsRemaining).toInt()
 
     }
 

@@ -44,7 +44,7 @@ class TopicPeriodicTableQuestionsLibrary {
 
         //Question : X Element has how many valence electrons ?
         if (index == 1) {
-            var indexcorrect = r.nextInt(elementnames.size)
+            val indexcorrect = r.nextInt(elementnames.size) + 0
             var name = elementnames[indexcorrect]
             var indexc1 = r.nextInt(elementnames.size) + 0
 
@@ -73,270 +73,271 @@ class TopicPeriodicTableQuestionsLibrary {
             return question
 
         } else if (index == 2) {
-            val index_correct = r.nextInt(elementnames.size)
+            val indexcorrect = r.nextInt(elementnames.size) + 0
 
-            var index_c1 = r.nextInt(elementnames.size) + 0
+            var indexc1 = r.nextInt(elementnames.size) + 0
 
-            while (index_c1 == index_correct) {
-                index_c1 = r.nextInt(elementnames.size) + 0
+            while (indexc1 == indexcorrect) {
+                indexc1 = r.nextInt(elementnames.size) + 0
             }
 
-            var index_c2 = r.nextInt(elementnames.size) + 0
+            var indexc2 = r.nextInt(elementnames.size) + 0
 
-            while (index_c2 == index_c1 || index_c2 == index_correct) {
-                index_c2 = r.nextInt(elementnames.size) + 0
+            while (indexc2 == indexc1 || indexc2 == indexcorrect) {
+                indexc2 = r.nextInt(elementnames.size) + 0
             }
 
-            var index_c3 = r.nextInt(elementnames.size) + 0
+            var indexc3 = r.nextInt(elementnames.size) + 0
 
-            while (index_c3 == index_c2 || index_c3 == index_c1 || index_c3 == index_correct) {
-                index_c3 = r.nextInt(elementnames.size) + 0
+            while (indexc3 == indexc2 || indexc3 == indexc1 || indexc3 == indexcorrect) {
+                indexc3 = r.nextInt(elementnames.size) + 0
             }
 
-            this.choice1 = elementInfo[index_c1][0]
-            this.choice2 = elementInfo[index_c2][0]
-            this.choice3 = elementInfo[index_c3][0]
-            this.correctAnswer = elementInfo[index_correct][0]
+            this.choice1 = elementInfo[indexc1][0]
+            this.choice2 = elementInfo[indexc2][0]
+            this.choice3 = elementInfo[indexc3][0]
+            this.correctAnswer = elementInfo[indexcorrect][0]
 
             val question = "Which element has the highest reactivity?"
             return question
         } else if (index == 3) {
-            val index_correct = r.nextInt(elementnames.size)
+            val indexcorrect = r.nextInt(elementnames.size)  + 0
 
-            var index_c1 = r.nextInt(elementnames.size) + 0
+            var indexc1 = r.nextInt(elementnames.size) + 0
 
-            while (index_c1 == index_correct) {
-                index_c1 = r.nextInt(elementnames.size) + 0
+            while (indexc1 == indexcorrect) {
+                indexc1 = r.nextInt(elementnames.size) + 0
             }
 
-            var index_c2 = r.nextInt(elementnames.size) + 0
+            var indexc2 = r.nextInt(elementnames.size) + 0
 
-            while (index_c2 == index_c1 || index_c2 == index_correct) {
-                index_c2 = r.nextInt(elementnames.size) + 0
+            while (indexc2 == indexc1 || indexc2 == indexcorrect) {
+                indexc2 = r.nextInt(elementnames.size) + 0
             }
 
-            var index_c3 = r.nextInt(elementnames.size) + 0
+            var indexc3 = r.nextInt(elementnames.size) + 0
 
-            while (index_c3 == index_c2 || index_c3 == index_c1 || index_c3 == index_correct) {
-                index_c3 = r.nextInt(elementnames.size) + 0
+            while (indexc3 == indexc2 || indexc3 == indexc1 || indexc3 == indexcorrect) {
+                indexc3 = r.nextInt(elementnames.size) + 0
             }
 
-            this.choice1 = elementInfo[index_c1][0]
-            this.choice2 = elementInfo[index_c2][0]
-            this.choice3 = elementInfo[index_c3][0]
-            this.correctAnswer = elementInfo[index_correct][0]
+            this.choice1 = elementInfo[indexc1][0]
+            this.choice2 = elementInfo[indexc2][0]
+            this.choice3 = elementInfo[indexc3][0]
+            this.correctAnswer = elementInfo[indexcorrect][0]
 
             val question = "Which element has the lowest reactivity?"
             return question
         } else if (index == 4) {
-            val index_correct = r.nextInt(elementnames.size)
-            var name = elementInfo[index_correct][0]
-            var group = elementInfo[index_correct][6]
+            val indexcorrect = r.nextInt(elementnames.size)
+            val name = elementInfo[indexcorrect][0]
+            val group = elementInfo[indexcorrect][6]
 
-            var index_c1 = r.nextInt(elementInfo.size) + 0
+            var indexc1 = r.nextInt(elementInfo.size) + 0
 
             var valid = true
             while (valid ) {
-                index_c1 = r.nextInt(elementInfo.size) + 0
-                if(index_c1 != index_correct && elementInfo[index_c1][6] != group){
+                indexc1 = r.nextInt(elementInfo.size) + 0
+                if(indexc1 != indexcorrect && elementInfo[indexc1][6] != group){
                     valid = false
                 }
             }
 
-            var index_c2 = r.nextInt(elementInfo.size) + 0
+            var indexc2 = r.nextInt(elementInfo.size) + 0
             valid = true
             while (valid ) {
-                index_c2 = r.nextInt(elementInfo.size) + 0
-                if(index_c2 != index_correct && elementInfo[index_c2][6] != group && index_c2 != index_c1 ){
+                indexc2 = r.nextInt(elementInfo.size) + 0
+                if(indexc2 != indexcorrect && elementInfo[indexc2][6] != group && indexc2 != indexc1 ){
                     valid = false
                 }
             }
 
-            var index_c3 = r.nextInt(elementInfo.size) + 0
+            var indexc3 = r.nextInt(elementInfo.size) + 0
             valid = true
             while (valid ) {
-                index_c3 = r.nextInt(elementInfo.size) + 0
-                if(index_c3 != index_correct && elementInfo[index_c3][6] != group && index_c3 != index_c1 && index_c3 != index_c2){
+                indexc3 = r.nextInt(elementInfo.size) + 0
+                if(indexc3 != indexcorrect && elementInfo[indexc3][6] != group && indexc3 != indexc1 && indexc3 != indexc2){
                     valid = false
                 }
             }
 
-            this.choice1 = elementInfo[index_c1][6]
-            this.choice2 = elementInfo[index_c2][6]
-            this.choice3 = elementInfo[index_c3][6]
-            this.correctAnswer = elementInfo[index_correct][6]
+            this.choice1 = elementInfo[indexc1][6]
+            this.choice2 = elementInfo[indexc2][6]
+            this.choice3 = elementInfo[indexc3][6]
+            this.correctAnswer = elementInfo[indexcorrect][6]
 
             val question = "Which group does $name belong to?"
             return question
         } else if (index == 5) {
-            val index_correct = r.nextInt(elementInfo.size)
-            var group = elementInfo[index_correct][6]
+            val indexcorrect = r.nextInt(elementInfo.size) + 0
+            val group = elementInfo[indexcorrect][6]
 
-            var index_c1 = r.nextInt(elementInfo.size) + 0
+            var indexc1 = r.nextInt(elementInfo.size) + 0
 
             var valid = true
             while (valid ) {
-                index_c1 = r.nextInt(elementInfo.size) + 0
-                if(index_c1 != index_correct && elementInfo[index_c1][6] != group){
+                indexc1 = r.nextInt(elementInfo.size) + 0
+                if(indexc1 != indexcorrect && elementInfo[indexc1][6] != group){
                     valid = false
                 }
              }
 
-            var index_c2 = r.nextInt(elementInfo.size) + 0
+            var indexc2 = r.nextInt(elementInfo.size) + 0
             valid = true
             while (valid ) {
-                index_c2 = r.nextInt(elementInfo.size) + 0
-                if(index_c2 != index_correct && elementInfo[index_c2][6] != group && index_c2 != index_c1 ){
+                indexc2 = r.nextInt(elementInfo.size) + 0
+                if(indexc2 != indexcorrect && elementInfo[indexc2][6] != group && indexc2 != indexc1 ){
                     valid = false
                 }
             }
 
-            var index_c3 = r.nextInt(elementInfo.size) + 0
+            var indexc3 = r.nextInt(elementInfo.size) + 0
             valid = true
             while (valid ) {
-                index_c3 = r.nextInt(elementInfo.size) + 0
-                if(index_c3 != index_correct && elementInfo[index_c3][6] != group && index_c3 != index_c1 && index_c3 != index_c2){
+                indexc3 = r.nextInt(elementInfo.size) + 0
+                if(indexc3 != indexcorrect && elementInfo[indexc3][6] != group && indexc3 != indexc1 && indexc3 != indexc2){
                     valid = false
                 }
             }
 
-            this.choice1 = elementInfo[index_c1][0]
-            this.choice2 = elementInfo[index_c2][0]
-            this.choice3 = elementInfo[index_c3][0]
-            this.correctAnswer = elementInfo[index_correct][0]
+            this.choice1 = elementInfo[indexc1][0]
+            this.choice2 = elementInfo[indexc2][0]
+            this.choice3 = elementInfo[indexc3][0]
+            this.correctAnswer = elementInfo[indexcorrect][0]
 
             val question = "Which element does not belong to $group?"
             return question
+
         } else if (index == 6) {
 
-            var index_correct = r.nextInt(elementInfo.size)
+            var indexcorrect = r.nextInt(elementInfo.size) + 0
             var isnottransmetal = true
             while(isnottransmetal){
-                index_correct = r.nextInt(elementInfo.size)
-                if(elementInfo[index_correct][6] == "Transition Metal"){
+                indexcorrect = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexcorrect][6] == "Transition Metal"){
                     isnottransmetal = false
                 }
             }
 
-            var index_c1 = r.nextInt(elementInfo.size) + 0
+            var indexc1 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c1][6] == "Transition Metal" && index_c1 != index_correct){
+                indexc1 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc1][6] == "Transition Metal" && indexc1 != indexcorrect){
                     isnottransmetal = false
                 }
             }
 
-            var index_c2 = r.nextInt(elementInfo.size) + 0
+            var indexc2 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c2][6] == "Transition Metal" && index_c2 != index_correct && index_c2 != index_c1){
+                indexc2 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc2][6] == "Transition Metal" && indexc2 != indexcorrect && indexc2 != indexc1){
                     isnottransmetal = false
                 }
             }
 
-            var index_c3 = r.nextInt(elementInfo.size) + 0
+            var indexc3 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c3 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c3][6] == "Transition Metal" && index_c3 != index_correct && index_c3 != index_c2 && index_c3 != index_c1){
+                indexc3 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc3][6] == "Transition Metal" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
                     isnottransmetal = false
                 }
             }
 
-            this.choice1 = elementInfo[index_c1][0]
-            this.choice2 = elementInfo[index_c2][0]
-            this.choice3 = elementInfo[index_c3][0]
-            this.correctAnswer = elementInfo[index_correct][0]
+            this.choice1 = elementInfo[indexc1][0]
+            this.choice2 = elementInfo[indexc2][0]
+            this.choice3 = elementInfo[indexc3][0]
+            this.correctAnswer = elementInfo[indexcorrect][0]
 
             val question = "Which element is apart of the transition metal?"
             return question
         } else if (index == 7) {
-            var index_correct = r.nextInt(elementInfo.size)
+            var indexcorrect = r.nextInt(elementInfo.size)
             var isnottransmetal = true
             while(isnottransmetal){
-                index_correct = r.nextInt(elementInfo.size)
-                if(elementInfo[index_correct][6] == "halogens"){
+                indexcorrect = r.nextInt(elementInfo.size)
+                if(elementInfo[indexcorrect][6] == "halogens"){
                     isnottransmetal = false
                 }
             }
 
-            var index_c1 = r.nextInt(elementInfo.size) + 0
+            var indexc1 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c1][6] == "halogens" && index_c1 != index_correct){
+                indexc1 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc1][6] == "halogens" && indexc1 != indexcorrect){
                     isnottransmetal = false
                 }
             }
 
-            var index_c2 = r.nextInt(elementInfo.size) + 0
+            var indexc2 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c2][6] == "halogens" && index_c2 != index_correct && index_c2 != index_c1){
+                indexc2 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc2][6] == "halogens" && indexc2 != indexcorrect && indexc2 != indexc1){
                     isnottransmetal = false
                 }
             }
 
-            var index_c3 = r.nextInt(elementInfo.size) + 0
+            var indexc3 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c3 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c3][6] == "halogens" && index_c3 != index_correct && index_c3 != index_c2 && index_c3 != index_c1){
+                indexc3 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc3][6] == "halogens" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
                     isnottransmetal = false
                 }
             }
 
-            this.choice1 = elementInfo[index_c1][0]
-            this.choice2 = elementInfo[index_c2][0]
-            this.choice3 = elementInfo[index_c3][0]
-            this.correctAnswer = elementInfo[index_correct][0]
+            this.choice1 = elementInfo[indexc1][0]
+            this.choice2 = elementInfo[indexc2][0]
+            this.choice3 = elementInfo[indexc3][0]
+            this.correctAnswer = elementInfo[indexcorrect][0]
 
             val question = "Which element is apart of the Halogens?"
             return question
         } else if (index == 8) {
-            var index_correct = r.nextInt(elementInfo.size)
+            var indexcorrect = r.nextInt(elementInfo.size)
             var isnottransmetal = true
             while(isnottransmetal){
-                index_correct = r.nextInt(elementInfo.size)
-                if(elementInfo[index_correct][6] == "Noble Gases"){
+                indexcorrect = r.nextInt(elementInfo.size)
+                if(elementInfo[indexcorrect][6] == "Noble Gases"){
                     isnottransmetal = false
                 }
             }
 
-            var index_c1 = r.nextInt(elementInfo.size) + 0
+            var indexc1 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c1][6] == "Noble Gases" && index_c1 != index_correct){
+                indexc1 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc1][6] == "Noble Gases" && indexc1 != indexcorrect){
                     isnottransmetal = false
                 }
             }
 
-            var index_c2 = r.nextInt(elementInfo.size) + 0
+            var indexc2 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c2][6] == "Noble Gases" && index_c2 != index_correct && index_c2 != index_c1){
+                indexc2 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc2][6] == "Noble Gases" && indexc2 != indexcorrect && indexc2 != indexc1){
                     isnottransmetal = false
                 }
             }
 
-            var index_c3 = r.nextInt(elementInfo.size) + 0
+            var indexc3 = r.nextInt(elementInfo.size) + 0
             isnottransmetal = true
             while(isnottransmetal){
-                index_c3 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[index_c3][6] == "Noble Gases" && index_c3 != index_correct && index_c3 != index_c2 && index_c3 != index_c1){
+                indexc3 = r.nextInt(elementInfo.size) + 0
+                if(elementInfo[indexc3][6] == "Noble Gases" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
                     isnottransmetal = false
                 }
             }
 
-            this.choice1 = elementInfo[index_c1][0]
-            this.choice2 = elementInfo[index_c2][0]
-            this.choice3 = elementInfo[index_c3][0]
-            this.correctAnswer = elementInfo[index_correct][0]
+            this.choice1 = elementInfo[indexc1][0]
+            this.choice2 = elementInfo[indexc2][0]
+            this.choice3 = elementInfo[indexc3][0]
+            this.correctAnswer = elementInfo[indexcorrect][0]
 
             val question = "Which element is apart of the Noble Gases?"
             return question
@@ -374,8 +375,8 @@ class TopicPeriodicTableQuestionsLibrary {
     fun obtainTotalNumberofQuestions() : Int{
         return this.totalQuestions
     }
-    fun addElementInfo(element: String, symbol : String, atomicNumber: String, atomicWeight: String){
+    fun addElementInfo(element: String, symbol : String, atomicNumber: String, atomicWeight: String, unknownnum :String,  numvalence: String , group: String){
 
-        elementInfo.add(mutableListOf(element, symbol, atomicNumber, atomicWeight))
+        elementInfo.add(mutableListOf(element, symbol, atomicNumber, atomicWeight,unknownnum, numvalence , group))
     }
 }
