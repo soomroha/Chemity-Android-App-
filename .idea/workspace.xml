@@ -10,7 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4d6c465-2b75-44c1-bd80-8a4347946f2a" name="Default" comment="">
+    <list default="true" id="25662a1b-e0ef-42bf-9c27-2065e4898497" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
@@ -20,12 +20,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/element_info.txt" afterPath="$PROJECT_DIR$/app/src/main/assets/element_info.txt" />
+      <change beforePath="$PROJECT_DIR$/Chemity-Android-App-.iml" afterPath="$PROJECT_DIR$/Chemity-Android-App-.iml" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuestionsLibrary.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuestionsLibrary.kt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuizActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuizActivity.kt" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/topicperiodictable_quiz.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/topicperiodictable_quiz.xml" />
     </list>
-    <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +44,27 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Chemity-Android-App-" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="TopicPeriodicTableQuestionsLibrary.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuestionsLibrary.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="185" column="24" lean-forward="true" selection-start-line="185" selection-start-column="24" selection-end-line="185" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="195" column="28" lean-forward="true" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
               <folding>
                 <element signature="e#37#82#0" expanded="true" />
               </folding>
@@ -59,33 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Topic1QuestionsLibrary.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/Topic1QuestionsLibrary.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1479">
-              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TopicPeriodicTableQuizActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuizActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding>
-                <element signature="e#4277#4326#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Topic1QuizActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/Topic1QuizActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-810">
-              <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state relative-caret-position="6">
+              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -93,36 +84,26 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Gradle Kotlin DSL Build Script" />
-        <option value="Class" />
-        <option value="Kotlin Class" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>answer2</find>
-      <find>answer4</find>
-      <find>numQuestion</find>
-      <find>index_c3</find>
+      <find>elementnames</find>
+      <find>Transition- Metal</find>
+      <find>halogens</find>
+      <find>isnottransmetal</find>
+      <find>6</find>
     </findStrings>
     <replaceStrings>
-      <replace>topicperiodictableanswer3</replace>
-      <replace>topicperiodictablenumQuestion</replace>
-      <replace>indexcorrect</replace>
-      <replace>indexc3</replace>
+      <replace>elementInfo.size</replace>
+      <replace>Transition-</replace>
+      <replace>Transition-Metal</replace>
+      <replace>Halogen</replace>
+      <replace>isnothalogen</replace>
+      <replace>isnotnoblegas</replace>
+      <replace>7</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -2226,31 +2207,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTable" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuizActivity" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableOptionsActivity" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeridoicTableOptionsActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/Topic1OptionsActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/topicperiodictable_options.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/Topic1QuestionsLibrary.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/topicperiodictable_quiz.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/Topic1QuizActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/ids.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableOptionsActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuizActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuestionsLibrary.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="233" />
-    <option name="y" value="2" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="236" />
     <option name="width" value="1069" />
-    <option name="height" value="766" />
+    <option name="height" value="768" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
@@ -2266,10 +2233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2295,34 +2260,23 @@
             </path>
             <path>
               <item name="Chemity-Android-App-" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="Chemity-Android-App-" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="device.picker.selection" value="Nexus_5_API_24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.profiler.active" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ReverseShield" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\WeiGan\Chemity-Android-App-\app\src\main\res\layout" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\WeiGan\Chemity-Android-App-\app\src" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2371,7 +2325,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
@@ -2480,11 +2434,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4d6c465-2b75-44c1-bd80-8a4347946f2a" name="Default" comment="" />
-      <created>1531331450080</created>
+      <changelist id="25662a1b-e0ef-42bf-9c27-2065e4898497" name="Default" comment="" />
+      <created>1531874522718</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1531331450080</updated>
+      <updated>1531874522718</updated>
     </task>
     <servers />
   </component>
@@ -2498,33 +2452,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="233" y="2" width="1069" height="766" extended-state="1" />
+    <frame x="236" y="0" width="1069" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32298136" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.304" sideWeight="0.50737464" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2943038" sideWeight="0.5113974" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4496" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33386075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33968255" sideWeight="0.49262536" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44875777" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753164" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4636076" sideWeight="0.49262536" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24975222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22101091" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3015873" sideWeight="0.49262536" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2943038" sideWeight="0.48860258" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2532,6 +2485,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11414791" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2571,29 +2525,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuestionsLibrary.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableOptionsActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <marker date="1531431372341" expanded="true" signature="1475:1530" ph="&quot;CgkIufeiq64XEAIQAA&quot;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2601,10 +2540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="e#37#483#0" expanded="false" />
-            <element signature="e#4277#4326#1" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2612,7 +2548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2620,9 +2555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1531431372341" expanded="true" signature="1475:1530" ph="&quot;CgkIufeiq64XEAIQAA&quot;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2630,10 +2562,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#37#483#0" expanded="false" />
-            <element signature="e#4277#4326#1" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2734,7 +2663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2742,21 +2670,20 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuizActivity" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeridoicTableOptionsActivity.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2764,7 +2691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2786,7 +2712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2794,7 +2719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2802,7 +2726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="218" column="26" lean-forward="false" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2810,7 +2733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2840,7 +2762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2869,7 +2790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="43" lean-forward="true" selection-start-line="10" selection-start-column="67" selection-end-line="11" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2877,7 +2797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="5443" column="70" lean-forward="true" selection-start-line="5443" selection-start-column="70" selection-end-line="5443" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2929,9 +2848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <marker date="1531431372341" expanded="true" signature="1475:1530" ph="&quot;CgkIufeiq64XEAIQAA&quot;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2939,9 +2855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-281">
           <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#37#502#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2949,51 +2862,196 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-317">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/topicperiodictable_quiz.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/Topic1QuestionsLibrary.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/Topic1QuizActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
+        <state relative-caret-position="17">
           <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/app/Instrumentation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="360" column="0" lean-forward="false" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
+          <folding>
+            <marker date="1531333763801" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531333763801" expanded="false" signature="135:521" ph="..." />
+            <marker date="1531333763801" expanded="false" signature="711:722" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="758:764" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="808:819" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="855:861" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="886:897" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="933:939" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="966:977" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1013:1019" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1076:1087" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1123:1129" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1189:1200" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1236:1242" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1286:1297" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1333:1339" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1395:1406" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1442:1448" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1500:1511" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1547:1553" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1597:1608" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1644:1650" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1692:1703" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1739:1745" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1774:1785" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1821:1827" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1860:1871" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="1907:1913" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="1958:1969" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2005:2011" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2050:2061" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2097:2103" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2139:2150" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2186:2192" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2226:2237" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2273:2279" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2313:2324" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2360:2366" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2399:2410" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2446:2452" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2501:2512" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2548:2554" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2603:2614" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2650:2656" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2691:2702" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2738:2744" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2792:2803" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2839:2845" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="2899:2910" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="2946:2952" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="3023:3075" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="3145:3197" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="3328:3380" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="3502:3554" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="3645:3697" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="3775:3827" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="3930:3982" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="4055:4107" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="4192:4244" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="4332:4384" ph="{...}" />
+            <marker date="1531333763801" expanded="false" signature="4429:4440" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="4476:4482" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="4527:4538" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="4574:4580" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="4624:4635" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="4671:4677" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="4725:4736" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="4772:4778" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="4830:4841" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="4877:4883" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="4942:4953" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="4989:4995" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="5164:5216" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="5374:5426" ph="{...}" />
+            <marker date="1531333763801" expanded="false" signature="5484:5495" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="5531:5537" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="5817:5869" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="6030:6082" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="6155:6207" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="6315:6367" ph="{...}" />
+            <marker date="1531333763801" expanded="false" signature="6425:6436" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="6472:6478" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="6577:6629" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="6763:6815" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="6892:6944" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="7056:7108" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="7184:7236" ph="{...}" />
+            <marker date="1531333763801" expanded="false" signature="7292:7303" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="7339:7345" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="7403:7414" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="7450:7456" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="7513:7524" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="7560:7566" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="7621:7632" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="7668:7674" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="7760:7812" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="7936:7988" ph="{...}" />
+            <marker date="1531333763801" expanded="false" signature="8044:8055" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="8091:8097" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="8160:8212" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="8218:8236" ph="/**...*/" />
+            <marker date="1531333763801" expanded="false" signature="8289:8300" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="8336:8342" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="8348:8366" ph="/**...*/" />
+            <marker date="1531333763801" expanded="false" signature="8418:8429" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="8465:8471" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="8507:8518" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="8554:8560" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="8597:8608" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="8644:8650" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="8693:8704" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="8740:8746" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="8798:8809" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="8845:8851" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="8918:8970" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="9017:9347" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="9084:9144" ph="{...}" />
+            <marker date="1531333763801" expanded="false" signature="9180:9195" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="9231:9241" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="9280:9295" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="9331:9341" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="9389:10743" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="9496:9556" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="9655:9715" ph="{...}" />
+            <marker date="1531333763801" expanded="false" signature="9749:9764" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="9800:9810" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="9857:9872" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="9908:9918" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="9984:10044" ph="{...}" />
+            <marker date="1531333763801" expanded="false" signature="10087:10102" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="10138:10148" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="10184:10199" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="10235:10245" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="10294:10309" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="10345:10355" ph=" }" />
+            <marker date="1531333763801" expanded="false" signature="10404:10419" ph=" { " />
+            <marker date="1531333763801" expanded="false" signature="10455:10465" ph=" }" />
+            <marker date="1531333763801" expanded="true" signature="10538:10598" ph="{...}" />
+            <marker date="1531333763801" expanded="true" signature="10677:10737" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/topicperiodictable_quiz.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuizActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#4277#4326#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/Topic1QuestionsLibrary.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="6">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/chemapp/TopicPeriodicTableQuestionsLibrary.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="185" column="24" lean-forward="true" selection-start-line="185" selection-start-column="24" selection-end-line="185" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="195" column="28" lean-forward="true" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
           <folding>
             <element signature="e#37#82#0" expanded="true" />
           </folding>

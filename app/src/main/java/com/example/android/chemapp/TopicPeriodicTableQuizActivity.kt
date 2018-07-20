@@ -73,7 +73,7 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
         }
 
         topicperiodictableanswer3.setOnClickListener{
-            if(answer3.text.toString() == this.correctAnswer){
+            if(topicperiodictableanswer3.text.toString() == this.correctAnswer){
                 this.current_score++
                 topicperiodictablescore.text = "Score: $current_score / $total_questions"
             }
@@ -118,7 +118,7 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
             if(j == 0){
                 topicperiodictableanswer1.text = topicperiodictablequestions.obtainCorrectAnswer()
                 topicperiodictableanswer2.text = topicperiodictablequestions.obtainChoice2()
-                answer3.text = topicperiodictablequestions.obtainChoice3()
+                topicperiodictableanswer3.text = topicperiodictablequestions.obtainChoice3()
                 topicperiodictableanswer4.text = topicperiodictablequestions.obtainChoice1()
 
             }
@@ -126,7 +126,7 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
 
                 topicperiodictableanswer1.text = topicperiodictablequestions.obtainChoice2()
                 topicperiodictableanswer2.text = topicperiodictablequestions.obtainCorrectAnswer()
-                answer3.text = topicperiodictablequestions.obtainChoice3()
+                topicperiodictableanswer3.text = topicperiodictablequestions.obtainChoice3()
                 topicperiodictableanswer4.text = topicperiodictablequestions.obtainChoice1()
 
             }
@@ -134,7 +134,7 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
 
                 topicperiodictableanswer1.text = topicperiodictablequestions.obtainChoice2()
                 topicperiodictableanswer2.text = topicperiodictablequestions.obtainChoice3()
-                answer3.text = topicperiodictablequestions.obtainCorrectAnswer()
+                topicperiodictableanswer3.text = topicperiodictablequestions.obtainCorrectAnswer()
                 topicperiodictableanswer4.text = topicperiodictablequestions.obtainChoice1()
             }
             else{

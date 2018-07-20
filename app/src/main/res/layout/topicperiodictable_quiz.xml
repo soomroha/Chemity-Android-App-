@@ -52,13 +52,15 @@
     <me.zhanghai.android.materialprogressbar.MaterialProgressBar
         android:id="@+id/topicperiodictableprogress_countdown"
         style="@style/Widget.MaterialProgressBar.ProgressBar"
+  	android:minWidth="75dp"
+        android:minHeight="72dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView_countdown"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-24dp"
-        android:minHeight="72dp"
-        android:minWidth="75dp" />
+        
+	 />
 
     <Button
         android:id="@+id/topicperiodictableanswer4"
