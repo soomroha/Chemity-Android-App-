@@ -40,10 +40,9 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
             val symbol = str[1]
             val atomicNumber = str[2]
             val atomicWeight = Math.ceil(str[3].toDouble()).toInt().toString()
-            val unknownnum = Math.ceil(str[4].toDouble()).toInt().toString()
-            val numValence = Math.ceil(str[4].toDouble()).toInt().toString()
-            val group = str[5]
-            topicperiodictablequestions.addElementInfo(element, symbol, atomicNumber, atomicWeight, unknownnum, numValence, group)
+            val numValence = Math.ceil(str[5].toDouble()).toInt().toString()
+            val group = str[6]
+            topicperiodictablequestions.addElementInfo(element, symbol, atomicNumber, atomicWeight, numValence, group)
         }
 
         topicperiodictablescore.text = "Score: $current_score / $total_questions"
