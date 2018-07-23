@@ -11,7 +11,7 @@ import java.io.File
 import java.io.InputStream
 import java.util.*
 import android.widget.Toast
-import kotlinx.android.synthetic.main.topic1_quiz.*
+
 
 class TopicPeriodicTableQuizActivity : AppCompatActivity() {
     var topicperiodictablequestions = TopicPeriodicTableQuestionsLibrary()

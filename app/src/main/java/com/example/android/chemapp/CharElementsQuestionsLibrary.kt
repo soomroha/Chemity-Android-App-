@@ -5,7 +5,7 @@ import java.util.ArrayList
 
 class CharElementsQuestionsLibrary {
     private val elementInfo  = mutableListOf<MutableList<String>>()
-    private val totalQuestions = 13
+    private val totalQuestions = 10
 
     var choice1: String? = null
         private set
@@ -25,15 +25,15 @@ class CharElementsQuestionsLibrary {
         if (questionTypesSeen.size == numberOfQuestionTypes) {
             questionTypesSeen.clear()
             // Theory questions should not be repeated
-            for (i in 2..12) {
+            for (i in 2..14) {
                 questionTypesSeen.add(i)
             }
         }
 
         //Chooses the question type to do. as long as the question has not been seen before
-        var index = r.nextInt(15) + 1
+        var index = r.nextInt(14) + 1
         while (questionTypesSeen.contains(index)) {
-            index = r.nextInt(15) + 1
+            index = r.nextInt(14) + 1
         }
         questionTypesSeen.add(index)
 

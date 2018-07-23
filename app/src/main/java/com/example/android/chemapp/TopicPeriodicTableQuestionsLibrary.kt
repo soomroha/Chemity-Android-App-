@@ -43,8 +43,17 @@ class TopicPeriodicTableQuestionsLibrary {
         }
         questionTypesSeen.add(index)
 
+       /* index = 0
+        if(index == 0) {
+            this.choice1 = "a"
+            this.choice2 = "b"
+            this.choice3 = "c"
+            this.correctAnswer = "d"
 
-        //Question : X Element has how many valence electrons ?
+            val question = "Its A"
+            return question
+            //Question : X Element has how many valence electrons ?
+        }else*/
         if (index == 1) {
             val indexcorrect = r.nextInt(elementInfo.size)
 
@@ -237,7 +246,7 @@ class TopicPeriodicTableQuestionsLibrary {
             var indexcorrect = r.nextInt(elementInfo.size)
             while(isnottransmetal){
                 indexcorrect = r.nextInt(elementInfo.size)
-                if(elementInfo[indexcorrect][5] != "Tranisition-Metal") {
+                if(elementInfo[indexcorrect][5] == "Tranisition-Metal") {
                     isnottransmetal = false
                 }
             }
@@ -246,7 +255,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][5] == "Transition-Metal" && indexc1 != indexcorrect){
+                if(elementInfo[indexc1][5] != "Transition-Metal" && indexc1 != indexcorrect){
                     isnottransmetal = false
                 }
             }
@@ -255,7 +264,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][5] == "Transition-Metal" && indexc2 != indexcorrect && indexc2 != indexc1){
+                if(elementInfo[indexc2][5] != "Transition-Metal" && indexc2 != indexcorrect && indexc2 != indexc1){
                     isnottransmetal = false
                 }
             }
@@ -264,7 +273,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][5] == "Transition-Metal" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
+                if(elementInfo[indexc3][5] != "Transition-Metal" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
                     isnottransmetal = false
                 }
             }
@@ -274,7 +283,7 @@ class TopicPeriodicTableQuestionsLibrary {
             this.choice3 = elementInfo[indexc3][0]
             this.correctAnswer = elementInfo[indexcorrect][0]
 
-            val question = "Which element is not a part of the Transition-Metal?"
+            val question = "Which element is a part of the Transition-Metal?"
             return question
         } else if (index == 7) {
             var indexcorrect = r.nextInt(elementInfo.size)
@@ -403,7 +412,7 @@ class TopicPeriodicTableQuestionsLibrary {
             val question = "Alkali Metals are found in which group?"
             return question
         }/*else if(index == 14){
-
+            //Lewis Dot
         }*/
 
 

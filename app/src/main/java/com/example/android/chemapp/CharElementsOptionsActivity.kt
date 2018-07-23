@@ -34,7 +34,6 @@ class CharElementsOptionsActivity : AppCompatActivity() {
             Games.getLeaderboardsClient(this, acc)
             .getLeaderboardIntent(getString(R.string.leaderboard_atoms_ions_compounds_id))
             .addOnSuccessListener {
-            //Toast.makeText(this, "success", Toast.LENGTH_SHORT).show()
             intent -> ActivityCompat.startActivityForResult(this, intent, RC_LEADERBOARD_UI, null)
             Toast.makeText(this, "success", Toast.LENGTH_SHORT).show()
             }
