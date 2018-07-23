@@ -31,7 +31,7 @@ class TopicPeriodicTableQuestionsLibrary {
             questionTypesSeen.add(11)
             questionTypesSeen.add(12)
             questionTypesSeen.add(13)
-            questionTypesSeen.add(14)
+            //questionTypesSeen.add(14)
         }
 
         //nextInt(# of question types) + 1
@@ -191,7 +191,7 @@ class TopicPeriodicTableQuestionsLibrary {
             var valid = true
             while (valid ) {
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(indexc1 != indexcorrect && elementInfo[indexc1][5] == staygroup){
+                if(elementInfo[indexc1][5] == staygroup){
                     valid = false
                 }
              }
@@ -200,7 +200,7 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(indexc2 != indexcorrect && elementInfo[indexc2][5] == staygroup && indexc2 != indexc1 ){
+                if(elementInfo[indexc2][5] == staygroup && indexc2 != indexc1 ){
                     valid = false
                 }
             }
@@ -209,7 +209,7 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexc3 = r.nextInt(elementInfo.size)
-                if(indexc3 != indexcorrect && elementInfo[indexc3][5] == staygroup && indexc3 != indexc1 && indexc3 != indexc2){
+                if(elementInfo[indexc3][5] == staygroup && indexc3 != indexc1 && indexc3 != indexc2){
                     valid = false
                 }
             }
@@ -236,13 +236,8 @@ class TopicPeriodicTableQuestionsLibrary {
 
             var indexcorrect = r.nextInt(elementInfo.size)
             while(isnottransmetal){
-                if(elementInfo[indexcorrect][5] != "Tranisition-Metal") {
-                    isnottransmetal = false
-                }
-            }
-            while(isnottransmetal){
                 indexcorrect = r.nextInt(elementInfo.size)
-                if(elementInfo[indexcorrect][5] == "Transition-Metal"){
+                if(elementInfo[indexcorrect][5] != "Tranisition-Metal") {
                     isnottransmetal = false
                 }
             }
@@ -279,7 +274,7 @@ class TopicPeriodicTableQuestionsLibrary {
             this.choice3 = elementInfo[indexc3][0]
             this.correctAnswer = elementInfo[indexcorrect][0]
 
-            val question = "Which element is not apart of the Transition-Metal?"
+            val question = "Which element is not a part of the Transition-Metal?"
             return question
         } else if (index == 7) {
             var indexcorrect = r.nextInt(elementInfo.size)
@@ -322,14 +317,14 @@ class TopicPeriodicTableQuestionsLibrary {
             this.choice3 = elementInfo[indexc3][0]
             this.correctAnswer = elementInfo[indexcorrect][0]
 
-            val question = "Which element is apart of the Halogen?"
+            val question = "Which element is a part of the Halogen?"
             return question
         } else if (index == 8) {
             var indexcorrect = r.nextInt(elementInfo.size)
             var isnotnoblegas = true
             while(isnotnoblegas){
                 indexcorrect = r.nextInt(elementInfo.size)
-                if(elementInfo[indexcorrect][5] == "Noble gas"){
+                if(elementInfo[indexcorrect][5] == "Noble-Gases"){
                     isnotnoblegas = false
                 }
             }
@@ -338,7 +333,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][5] != "Noble Gases" && indexc1 != indexcorrect){
+                if(elementInfo[indexc1][5] != "Noble-Gases" && indexc1 != indexcorrect){
                     isnotnoblegas = false
                 }
             }
@@ -347,7 +342,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][5] != "Noble Gases" && indexc2 != indexcorrect && indexc2 != indexc1){
+                if(elementInfo[indexc2][5] != "Noble-Gases" && indexc2 != indexcorrect && indexc2 != indexc1){
                     isnotnoblegas = false
                 }
             }
@@ -356,7 +351,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc3 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc3][5] != "Noble Gases" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
+                if(elementInfo[indexc3][5] != "Noble-Gases" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
                     isnotnoblegas = false
                 }
             }
@@ -366,7 +361,7 @@ class TopicPeriodicTableQuestionsLibrary {
             this.choice3 = elementInfo[indexc3][0]
             this.correctAnswer = elementInfo[indexcorrect][0]
 
-            val question = "Which element is apart of the Noble Gases?"
+            val question = "Which element is a part of the Noble Gases?"
             return question
         }
 

@@ -19,7 +19,7 @@ class TopicPeriodicTableQuizSummaryActivity : AppCompatActivity() {
         setContentView(R.layout.topicperiodictable_quiz_summary)
 
         //change button names to match properly no overlap
-        periodictableleaderboard_button.setOnClickListener() {
+        topicperiodictableleaderboard_button.setOnClickListener() {
 
             val acc = GoogleSignIn.getLastSignedInAccount(this)
             if (acc == null) {
@@ -36,7 +36,7 @@ class TopicPeriodicTableQuizSummaryActivity : AppCompatActivity() {
         }
 
         //change button listening to
-        periodictablereplay.setOnClickListener() {
+        topicperiodictablereplay.setOnClickListener() {
             //change intent here
             val intent = Intent(this@TopicPeriodicTableQuizSummaryActivity, TopicPeriodicTableQuizActivity::class.java)
             startActivity(intent)
