@@ -31,9 +31,9 @@ class CharElementsQuestionsLibrary {
         }
 
         //Chooses the question type to do. as long as the question has not been seen before
-        var index = r.nextInt(13) + 1
+        var index = r.nextInt(15) + 1
         while (questionTypesSeen.contains(index)) {
-            index = r.nextInt(13) + 1
+            index = r.nextInt(15) + 1
         }
         questionTypesSeen.add(index)
 
@@ -165,11 +165,11 @@ class CharElementsQuestionsLibrary {
             return question
 
         }else if(index == 4){
-            this.choice1 = ""
-            this.choice2 = " "
-            this.choice3 = ""
-            this.correctAnswer =""
-            val question = ""
+            this.choice1 = "it is actually a noble gas"
+            this.choice2 = " it's actually a alkaline earth metal "
+            this.choice3 = "it's not strange at all"
+            this.correctAnswer ="it shares the same number of valence electrons of alkali metals"
+            val question = "Hydrogen is strange because ____"
             return question
 
         }else if(index == 5){
@@ -257,28 +257,23 @@ class CharElementsQuestionsLibrary {
     }
     fun obtainChoice1() : String?{
         return this.choice1
-
     }
 
     fun obtainChoice2() : String?{
         return this.choice2
-
     }
 
     fun obtainChoice3() : String?{
         return this.choice3
-
     }
 
     fun obtainCorrectAnswer() : String?{
         return this.correctAnswer
-
     }
     fun obtainTotalNumberofQuestions() : Int{
         return this.totalQuestions
     }
     fun addElementInfo(element: String, symbol : String, atomicNumber: String, atomicWeight: String,  numvalence: String , group: String){
-
         elementInfo.add(mutableListOf(element, symbol, atomicNumber, atomicWeight, numvalence , group))
     }
 }

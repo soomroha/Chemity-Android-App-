@@ -34,10 +34,12 @@ class TopicPeriodicTableQuestionsLibrary {
             questionTypesSeen.add(14)
         }
 
+        //nextInt(# of question types) + 1
+        // remember to update when it changes to 15
         //Chooses the question type to do. as long as the question has not been seen before
-        var index = r.nextInt(13) + 1
+        var index = r.nextInt(14) + 1
         while (questionTypesSeen.contains(index)) {
-            index = r.nextInt(13) + 1
+            index = r.nextInt(14) + 1
         }
         questionTypesSeen.add(index)
 
