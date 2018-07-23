@@ -17,7 +17,7 @@ class CharElementsOptionsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.topicperiodictable_options)
+        setContentView(R.layout.charelements_options)
         charelementsPractice.setOnClickListener(){
             val intent = Intent(this@CharElementsOptionsActivity, CharElementsQuizActivity::class.java)
             startActivity(intent)
