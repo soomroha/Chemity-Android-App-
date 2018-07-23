@@ -105,7 +105,7 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
             }
 
 
-            val intent = Intent(this@TopicPeriodicTableQuizActivity, Topic1QuizSummaryActivity::class.java)
+            val intent = Intent(this@TopicPeriodicTableQuizActivity, TopicPeriodicTableQuizSummaryActivity::class.java)
             startActivity(intent)
 
         }

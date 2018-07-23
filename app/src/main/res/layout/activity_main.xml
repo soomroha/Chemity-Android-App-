@@ -79,7 +79,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/topic3"
+                android:id="@+id/characteristicselement"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:orientation="horizontal">
@@ -95,8 +95,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Acid and Bases"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:text="Characteristics ofElements" />
 
                 <ProgressBar
                     style="?android:attr/progressBarStyle"

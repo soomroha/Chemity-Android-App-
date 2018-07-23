@@ -85,6 +85,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         })
+        characteristicselement.setOnClickListener(object: View.OnClickListener {
+            override  fun onClick(view: View): Unit {
+                //for CharElement section
+                val intent = Intent(this@MainActivity , CharElementsOptionsActivity::class.java)
+                startActivity(intent)
+            }
+        })
 
 
 

@@ -7,19 +7,19 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.games.Games
-import kotlinx.android.synthetic.main.topicperiodictable_quiz_summary.*
+import kotlinx.android.synthetic.main.charelements_quiz_summary.*
 
 // change name to correct class
-class TopicPeriodicTableQuizSummaryActivity : AppCompatActivity() {
+class CharElementsQuizSummaryActivity : AppCompatActivity() {
     private var RC_LEADERBOARD_UI = 9004
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.topicperiodictable_quiz_summary)
+        setContentView(R.layout.charelements_quiz_summary)
 
         //change button names to match properly no overlap
-        periodictableleaderboard_button.setOnClickListener() {
+        charelementsleaderboard_button.setOnClickListener() {
 
             val acc = GoogleSignIn.getLastSignedInAccount(this)
             if (acc == null) {
@@ -36,9 +36,9 @@ class TopicPeriodicTableQuizSummaryActivity : AppCompatActivity() {
         }
 
         //change button listening to
-        periodictablereplay.setOnClickListener() {
+        charelementsreplay.setOnClickListener() {
             //change intent here
-            val intent = Intent(this@TopicPeriodicTableQuizSummaryActivity, TopicPeriodicTableQuizActivity::class.java)
+            val intent = Intent(this@CharElementsQuizSummaryActivity, CharElementsQuizActivity::class.java)
             startActivity(intent)
             finish()
 

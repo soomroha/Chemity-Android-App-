@@ -35,9 +35,9 @@ class TopicPeriodicTableQuestionsLibrary {
         }
 
         //Chooses the question type to do. as long as the question has not been seen before
-        var index = r.nextInt(9) + 1
+        var index = r.nextInt(13) + 1
         while (questionTypesSeen.contains(index)) {
-            index = r.nextInt(9) + 1
+            index = r.nextInt(13) + 1
         }
         questionTypesSeen.add(index)
 
@@ -89,8 +89,9 @@ class TopicPeriodicTableQuestionsLibrary {
             return question
 
         }
-        //Which element has the highest reactivity?
        /* else if (index == 2) {
+           //Which element has the highest reactivity?
+           // May just want to take this question out due to too many factors in determining reactivity.
             val indexcorrect = r.nextInt(elementInfo.size)
 
             var indexc1 = r.nextInt(elementInfo.size)
@@ -233,11 +234,9 @@ class TopicPeriodicTableQuestionsLibrary {
 
             var indexcorrect = r.nextInt(elementInfo.size)
             while(isnottransmetal){
-                if(elementInfo[indexcorrect][5] != "Tranisition-Metal"){
+                if(elementInfo[indexcorrect][5] != "Tranisition-Metal") {
                     isnottransmetal = false
                 }
-
-
             }
             while(isnottransmetal){
                 indexcorrect = r.nextInt(elementInfo.size)
