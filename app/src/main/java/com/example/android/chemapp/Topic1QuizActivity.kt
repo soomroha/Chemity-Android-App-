@@ -65,6 +65,7 @@ class Topic1QuizActivity : AppCompatActivity() {
             val atomicNumber = str[2]
             val atomicWeight = Math.ceil(str[3].toDouble()).toInt().toString()
 
+
             questions.addElementInfo(element, symbol, atomicNumber, atomicWeight)
         }
 

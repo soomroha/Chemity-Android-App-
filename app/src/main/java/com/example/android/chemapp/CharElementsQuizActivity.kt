@@ -32,17 +32,13 @@ class CharElementsQuizActivity : AppCompatActivity() {
 
         var lineList = mutableListOf<String>()
 
-        applicationContext.assets.open("element_info.txt").bufferedReader().useLines { lines -> lines.forEach { lineList.add(it) } }
+        applicationContext.assets.open("charelementinfo.txt").bufferedReader().useLines { lines -> lines.forEach { lineList.add(it) } }
         lineList.forEach{
 
             val str = it.split("\\s".toRegex())
             val element = str[0]
-            val symbol = str[1]
-            val atomicNumber = str[2]
-            val atomicWeight = Math.ceil(str[3].toDouble()).toInt().toString()
-            val numValence = Math.ceil(str[5].toDouble()).toInt().toString()
-            val group = str[6]
-            CharElementsquestions.addElementInfo(element, symbol, atomicNumber, atomicWeight, numValence, group)
+            val group = str[1]
+            CharElementsquestions.addElementInfo(element, group)
         }
 
         charelementsscore.text = "Score: $current_score / $total_questions"
@@ -100,7 +96,7 @@ class CharElementsQuizActivity : AppCompatActivity() {
 
             if(acct != null){
                 Games.getLeaderboardsClient(this, acct)
-                        .submitScore(getString(R.string.leaderboard_periodic_table_id), current_score.toLong())
+                        .submitScore(getString(R.string.leaderboard_charelements_id), current_score.toLong())
             //this is a issue im unsure about.
             }
 

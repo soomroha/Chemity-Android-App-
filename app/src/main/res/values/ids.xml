@@ -11,7 +11,10 @@
 <string name="package_name" translatable="false">com.example.android.chemapp</string>
 <!-- leaderboard Atoms, Ions, Compounds -->
 <string name="leaderboard_atoms_ions_compounds_id" translatable="false">CgkIufeiq64XEAIQAA</string>
-
     <!-- leaderboard Periodic Table -->
-<string name="leaderboard_periodic_table_id" translatable="false">CgkIufeiq64XEAIQAA</string>
+<string name="leaderboard_periodic_table_id" translatable="false">CgkIufeiq64XEAIQAB</string>
+    <!-- leaderboard Character of Elements -->
+    <string name="leaderboard_charelements_id" translatable="false">CgkIufeiq64XEAIQAC</string>
+    <!-- leaderboard Trends In Periodic Table -->
+    <string name="leaderboard_trendsinpt_id" translatable="false">CgkIufeiq64XEAIQAD</string>
 </resources>

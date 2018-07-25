@@ -40,10 +40,10 @@ class CharElementsQuestionsLibrary {
         if(index == 1){
             var valid = true
             var indexcorrect = r.nextInt(elementInfo.size)
-            var group = elementInfo[indexcorrect][5]
+            var group = elementInfo[indexcorrect][1]
             while(valid) {
                 indexcorrect = r.nextInt(elementInfo.size)
-                group = elementInfo[indexcorrect][5]
+                group = elementInfo[indexcorrect][1]
                 valid = false
                 if(group == "Metalloid"){
                     this.correctAnswer = "have properties of both metals and non-metal"
@@ -65,10 +65,10 @@ class CharElementsQuestionsLibrary {
             }
 
             var indexc1 = r.nextInt(elementInfo.size)
-            var group1 = elementInfo[indexc1][5]
+            var group1 = elementInfo[indexc1][1]
             while(valid) {
                 indexc1 = r.nextInt(elementInfo.size)
-                group1 = elementInfo[indexc1][5]
+                group1 = elementInfo[indexc1][1]
                 if(indexc1 != indexcorrect && group != group1) {
                     valid = false
                     if (group1 == "Metalloid") {
@@ -92,10 +92,10 @@ class CharElementsQuestionsLibrary {
             }
 
             var indexc2 = r.nextInt(elementInfo.size)
-            var group2 = elementInfo[indexc2][5]
+            var group2 = elementInfo[indexc2][1]
             while(valid) {
                 indexc2 = r.nextInt(elementInfo.size)
-                group2 = elementInfo[indexc2][5]
+                group2 = elementInfo[indexc2][1]
                 if(indexc2 != indexcorrect && indexc2 != indexc1 && group != group2 && group1 != group2) {
                     valid = false
                     if (group2 == "Metalloid") {
@@ -119,10 +119,10 @@ class CharElementsQuestionsLibrary {
             }
 
             var indexc3 = r.nextInt(elementInfo.size)
-            var group3 = elementInfo[indexc3][5]
+            var group3 = elementInfo[indexc3][1]
             while(valid) {
                 indexc3 = r.nextInt(elementInfo.size)
-                group3 = elementInfo[indexc3][5]
+                group3 = elementInfo[indexc3][1]
                 if(indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1 && group3 != group && group3 != group2 && group3 != group1){
                     valid = false
                     if (group3 == "Metalloid") {
@@ -273,7 +273,7 @@ class CharElementsQuestionsLibrary {
     fun obtainTotalNumberofQuestions() : Int{
         return this.totalQuestions
     }
-    fun addElementInfo(element: String, symbol : String, atomicNumber: String, atomicWeight: String,  numvalence: String , group: String){
-        elementInfo.add(mutableListOf(element, symbol, atomicNumber, atomicWeight, numvalence , group))
+    fun addElementInfo(element: String, group: String){
+        elementInfo.add(mutableListOf(element, group))
     }
 }

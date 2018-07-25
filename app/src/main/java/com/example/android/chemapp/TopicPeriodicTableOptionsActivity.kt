@@ -32,7 +32,7 @@ class TopicPeriodicTableOptionsActivity : AppCompatActivity() {
         else {
             val leaderBoardClient = Games.getLeaderboardsClient(this@TopicPeriodicTableOptionsActivity, acc)
             Games.getLeaderboardsClient(this, acc)
-            .getLeaderboardIntent(getString(R.string.leaderboard_atoms_ions_compounds_id))
+            .getLeaderboardIntent(getString(R.string.leaderboard_periodic_table_id))
             .addOnSuccessListener {
             intent -> ActivityCompat.startActivityForResult(this, intent, RC_LEADERBOARD_UI, null)
             Toast.makeText(this, "success", Toast.LENGTH_SHORT).show()

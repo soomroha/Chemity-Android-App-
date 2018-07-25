@@ -32,17 +32,14 @@ class TopicPeriodicTableQuizActivity : AppCompatActivity() {
 
         var lineList = mutableListOf<String>()
 
-        applicationContext.assets.open("element_info.txt").bufferedReader().useLines { lines -> lines.forEach { lineList.add(it) } }
+        applicationContext.assets.open("topicperiodictableinfo.txt").bufferedReader().useLines { lines -> lines.forEach { lineList.add(it) } }
         lineList.forEach{
 
             val str = it.split("\\s".toRegex())
             val element = str[0]
-            val symbol = str[1]
-            val atomicNumber = str[2]
-            val atomicWeight = Math.ceil(str[3].toDouble()).toInt().toString()
-            val numValence = Math.ceil(str[5].toDouble()).toInt().toString()
-            val group = str[6]
-            topicperiodictablequestions.addElementInfo(element, symbol, atomicNumber, atomicWeight, numValence, group)
+            val numValence = Math.ceil(str[1].toDouble()).toInt().toString()
+            val group = str[2]
+            topicperiodictablequestions.addElementInfo(element, numValence, group)
         }
 
         topicperiodictablescore.text = "Score: $current_score / $total_questions"

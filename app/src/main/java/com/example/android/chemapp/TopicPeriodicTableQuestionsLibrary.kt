@@ -63,7 +63,7 @@ class TopicPeriodicTableQuestionsLibrary {
             while(nooverlap){
                 indexc1 = r.nextInt(elementInfo.size)
                 if(indexc1 != indexcorrect){
-                    if(elementInfo[indexc1][4] != elementInfo[indexcorrect][4]){
+                    if(elementInfo[indexc1][1] != elementInfo[indexcorrect][1]){
                         nooverlap = false
                     }
                 }
@@ -74,7 +74,7 @@ class TopicPeriodicTableQuestionsLibrary {
             while(nooverlap){
                 indexc2 = r.nextInt(elementInfo.size)
                 if(indexc2 != indexcorrect && indexc2 != indexc1){
-                    if(elementInfo[indexc2][4] != elementInfo[indexcorrect][4] && elementInfo[indexc2][4] != elementInfo[indexc1][4]){
+                    if(elementInfo[indexc2][1] != elementInfo[indexcorrect][1] && elementInfo[indexc2][1] != elementInfo[indexc1][1]){
                         nooverlap = false
                     }
                 }
@@ -84,16 +84,16 @@ class TopicPeriodicTableQuestionsLibrary {
             while(nooverlap){
                 indexc3 = r.nextInt(elementInfo.size)
                 if(indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
-                    if(elementInfo[indexc3][4] != elementInfo[indexcorrect][4] && elementInfo[indexc3][4] != elementInfo[indexc2][4] && elementInfo[indexc3][4] != elementInfo[indexc1][4]){
+                    if(elementInfo[indexc3][1] != elementInfo[indexcorrect][1] && elementInfo[indexc3][1] != elementInfo[indexc2][1] && elementInfo[indexc3][1] != elementInfo[indexc1][1]){
                         nooverlap = false
                     }
                 }
             }
 
-            this.choice1 = elementInfo[indexc1][4]
-            this.choice2 = elementInfo[indexc2][4]
-            this.choice3 = elementInfo[indexc3][4]
-            this.correctAnswer = elementInfo[indexcorrect][4]
+            this.choice1 = elementInfo[indexc1][1]
+            this.choice2 = elementInfo[indexc2][1]
+            this.choice3 = elementInfo[indexc3][1]
+            this.correctAnswer = elementInfo[indexcorrect][1]
 
             var name = elementInfo[indexcorrect][0]
             val question = "How many valence electrons does $name have? "
@@ -158,13 +158,13 @@ class TopicPeriodicTableQuestionsLibrary {
         else if (index == 4) {
             val indexcorrect = r.nextInt(elementInfo.size)
             val name = elementInfo[indexcorrect][0]
-            val group = elementInfo[indexcorrect][5]
+            val group = elementInfo[indexcorrect][2]
 
             var indexc1 = r.nextInt(elementInfo.size)
             var valid = true
             while (valid ) {
                 indexc1 = r.nextInt(elementInfo.size)
-                if(indexc1 != indexcorrect && elementInfo[indexc1][5] != group){
+                if(indexc1 != indexcorrect && elementInfo[indexc1][2] != group){
                     valid = false
                 }
             }
@@ -172,7 +172,7 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexc2 = r.nextInt(elementInfo.size)
-                if(indexc2 != indexcorrect && elementInfo[indexc2][5] != group && indexc2 != indexc1 ){
+                if(indexc2 != indexcorrect && elementInfo[indexc2][2] != group && indexc2 != indexc1 ){
                     valid = false
                 }
             }
@@ -180,27 +180,27 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexc3 = r.nextInt(elementInfo.size)
-                if(indexc3 != indexcorrect && elementInfo[indexc3][5] != group && indexc3 != indexc1 && indexc3 != indexc2){
+                if(indexc3 != indexcorrect && elementInfo[indexc3][2] != group && indexc3 != indexc1 && indexc3 != indexc2){
                     valid = false
                 }
             }
 
-            this.choice1 = elementInfo[indexc1][5]
-            this.choice2 = elementInfo[indexc2][5]
-            this.choice3 = elementInfo[indexc3][5]
+            this.choice1 = elementInfo[indexc1][2]
+            this.choice2 = elementInfo[indexc2][2]
+            this.choice3 = elementInfo[indexc3][2]
             this.correctAnswer = group
 
             val question = "Which group does $name belong to?"
             return question
         } else if (index == 5) {
             val indexcorrect = r.nextInt(elementInfo.size)
-            val staygroup = elementInfo[indexcorrect][5]
+            val staygroup = elementInfo[indexcorrect][2]
 
             var indexc1 = r.nextInt(elementInfo.size)
             var valid = true
             while (valid ) {
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][5] == staygroup){
+                if(elementInfo[indexc1][2] == staygroup){
                     valid = false
                 }
              }
@@ -209,7 +209,7 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][5] == staygroup && indexc2 != indexc1 ){
+                if(elementInfo[indexc2][2] == staygroup && indexc2 != indexc1 ){
                     valid = false
                 }
             }
@@ -218,7 +218,7 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][5] == staygroup && indexc3 != indexc1 && indexc3 != indexc2){
+                if(elementInfo[indexc3][2] == staygroup && indexc3 != indexc1 && indexc3 != indexc2){
                     valid = false
                 }
             }
@@ -227,7 +227,7 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexfailure= r.nextInt(elementInfo.size)
-                if(elementInfo[indexfailure][5] != staygroup){
+                if(elementInfo[indexfailure][2] != staygroup){
                     valid = false
                 }
             }
@@ -246,7 +246,7 @@ class TopicPeriodicTableQuestionsLibrary {
             var indexcorrect = r.nextInt(elementInfo.size)
             while(isnottransmetal){
                 indexcorrect = r.nextInt(elementInfo.size)
-                if(elementInfo[indexcorrect][5] == "Tranisition-Metal") {
+                if(elementInfo[indexcorrect][2] == "Tranisition-Metal") {
                     isnottransmetal = false
                 }
             }
@@ -255,7 +255,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][5] != "Transition-Metal" && indexc1 != indexcorrect){
+                if(elementInfo[indexc1][2] != "Transition-Metal" && indexc1 != indexcorrect){
                     isnottransmetal = false
                 }
             }
@@ -264,7 +264,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][5] != "Transition-Metal" && indexc2 != indexcorrect && indexc2 != indexc1){
+                if(elementInfo[indexc2][2] != "Transition-Metal" && indexc2 != indexcorrect && indexc2 != indexc1){
                     isnottransmetal = false
                 }
             }
@@ -273,7 +273,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][5] != "Transition-Metal" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
+                if(elementInfo[indexc3][2] != "Transition-Metal" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
                     isnottransmetal = false
                 }
             }
@@ -290,7 +290,7 @@ class TopicPeriodicTableQuestionsLibrary {
             var isnothalogen = true
             while(isnothalogen){
                 indexcorrect = r.nextInt(elementInfo.size)
-                if(elementInfo[indexcorrect][5] == "Halogen"){
+                if(elementInfo[indexcorrect][2] == "Halogen"){
                     isnothalogen = false
                 }
             }
@@ -298,7 +298,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnothalogen = true
             while(isnothalogen){
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][5] != "Halogen" && indexc1 != indexcorrect){
+                if(elementInfo[indexc1][2] != "Halogen" && indexc1 != indexcorrect){
                     isnothalogen = false
                 }
             }
@@ -307,7 +307,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnothalogen = true
             while(isnothalogen){
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][5] != "Halogen" && indexc2 != indexcorrect && indexc2 != indexc1){
+                if(elementInfo[indexc2][2] != "Halogen" && indexc2 != indexcorrect && indexc2 != indexc1){
                     isnothalogen = false
                 }
             }
@@ -316,7 +316,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnothalogen = true
             while(isnothalogen){
                 indexc3 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc3][5] != "Halogen" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
+                if(elementInfo[indexc3][2] != "Halogen" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
                     isnothalogen = false
                 }
             }
@@ -333,7 +333,7 @@ class TopicPeriodicTableQuestionsLibrary {
             var isnotnoblegas = true
             while(isnotnoblegas){
                 indexcorrect = r.nextInt(elementInfo.size)
-                if(elementInfo[indexcorrect][5] == "Noble-Gases"){
+                if(elementInfo[indexcorrect][2] == "Noble-Gases"){
                     isnotnoblegas = false
                 }
             }
@@ -342,7 +342,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][5] != "Noble-Gases" && indexc1 != indexcorrect){
+                if(elementInfo[indexc1][2] != "Noble-Gases" && indexc1 != indexcorrect){
                     isnotnoblegas = false
                 }
             }
@@ -351,7 +351,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][5] != "Noble-Gases" && indexc2 != indexcorrect && indexc2 != indexc1){
+                if(elementInfo[indexc2][2] != "Noble-Gases" && indexc2 != indexcorrect && indexc2 != indexc1){
                     isnotnoblegas = false
                 }
             }
@@ -360,7 +360,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc3 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc3][5] != "Noble-Gases" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
+                if(elementInfo[indexc3][2] != "Noble-Gases" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
                     isnotnoblegas = false
                 }
             }
@@ -440,8 +440,8 @@ class TopicPeriodicTableQuestionsLibrary {
     fun obtainTotalNumberofQuestions() : Int{
         return this.totalQuestions
     }
-    fun addElementInfo(element: String, symbol : String, atomicNumber: String, atomicWeight: String,  numvalence: String , group: String){
+    fun addElementInfo(element: String,  numvalence: String , group: String){
 
-        elementInfo.add(mutableListOf(element, symbol, atomicNumber, atomicWeight, numvalence , group))
+        elementInfo.add(mutableListOf(element, numvalence , group))
     }
 }

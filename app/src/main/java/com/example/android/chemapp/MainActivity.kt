@@ -92,6 +92,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         })
+        TrendsinPT.setOnClickListener(object: View.OnClickListener{
+          override  fun onClick(view: View): Unit{
+              val intent = Intent(this@MainActivity,TrendsInPTOptionsActivity::class.java)
+              startActivity(intent)
+          }
+
+        })
 
 
 

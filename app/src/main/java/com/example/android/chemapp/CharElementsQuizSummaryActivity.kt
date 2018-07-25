@@ -27,7 +27,7 @@ class CharElementsQuizSummaryActivity : AppCompatActivity() {
             } else {
                 Games.getLeaderboardsClient(this, acc)
                         //change leaderboardname
-                        .getLeaderboardIntent(getString(R.string.leaderboard_periodic_table_id))
+                        .getLeaderboardIntent(getString(R.string.leaderboard_charelements_id))
                         .addOnSuccessListener { intent ->
                             ActivityCompat.startActivityForResult(this, intent, RC_LEADERBOARD_UI, null)
                         }
