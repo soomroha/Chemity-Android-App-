@@ -99,6 +99,14 @@ class TopicPeriodicTableQuestionsLibrary {
             val question = "How many valence electrons does $name have? "
             return question
 
+        }else if(index == 2 || index == 3 || index == 14){
+            this.choice1 = "a"
+            this.choice2 = "b"
+            this.choice3 = "c"
+            this.correctAnswer = "d"
+
+            val question = "Its $index"
+            return question
         }
        /* else if (index == 2) {
            //Which element has the highest reactivity?

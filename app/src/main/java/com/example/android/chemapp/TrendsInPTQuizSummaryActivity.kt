@@ -7,8 +7,8 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.games.Games
-import kotlinx.android.synthetic.main.topic1_options.*
-import kotlinx.android.synthetic.main.topic1_quiz_summary.*
+import kotlinx.android.synthetic.main.trendsinpt_options.*
+import kotlinx.android.synthetic.main.trendsinpt_quiz_summary.*
 
 
 class TrendsInPTQuizSummaryActivity : AppCompatActivity() {
@@ -21,7 +21,7 @@ class TrendsInPTQuizSummaryActivity : AppCompatActivity() {
         setContentView(R.layout.trendsinpt_quiz_summary)
 
 
-        leaderboard_button.setOnClickListener(){
+        trendsinptleaderboard_button.setOnClickListener(){
 
             val acc = GoogleSignIn.getLastSignedInAccount(this)
             if( acc == null){
@@ -37,9 +37,9 @@ class TrendsInPTQuizSummaryActivity : AppCompatActivity() {
 
         }
 
-        replay.setOnClickListener(){
+        trendsinptreplay.setOnClickListener(){
 
-            val intent = Intent(this@TrendsInPTQuizSummaryActivity, Topic1QuizActivity::class.java)
+            val intent = Intent(this@TrendsInPTQuizSummaryActivity, TrendsInPTQuizActivity::class.java)
             startActivity(intent)
             finish()
 
