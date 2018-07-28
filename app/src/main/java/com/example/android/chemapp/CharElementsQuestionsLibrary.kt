@@ -118,11 +118,9 @@ class CharElementsQuestionsLibrary {
                 }
             }
 
-            var indexc3 = r.nextInt(elementInfo.size)
-            var group3 = elementInfo[indexc3][1]
             while(valid) {
-                indexc3 = r.nextInt(elementInfo.size)
-                group3 = elementInfo[indexc3][1]
+                var indexc3 = r.nextInt(elementInfo.size)
+                var group3 = elementInfo[indexc3][1]
                 if(indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1 && group3 != group && group3 != group2 && group3 != group1){
                     valid = false
                     if (group3 == "Metalloid") {

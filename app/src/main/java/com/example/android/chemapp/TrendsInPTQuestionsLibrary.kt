@@ -57,7 +57,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc2 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc2 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc2][1] < elementInfo[indexcorrect][1] && indexc2 != indexc1 && indexc2 != indexcorrect){
+                if(elementInfo[indexc2][1] < elementInfo[indexcorrect][1] && indexc2 != indexc1){
                     valid = false
                 }
             }
@@ -65,7 +65,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc3 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][1] < elementInfo[indexcorrect][1] && indexc3 != indexc2 && indexc3 != indexc1 && indexc3 != indexcorrect){
+                if(elementInfo[indexc3][1] < elementInfo[indexcorrect][1] && indexc3 != indexc2 && indexc3 != indexc1){
                     valid = false
                 }
             }
@@ -92,7 +92,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc2 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc2 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc2][1] > elementInfo[indexcorrect][1] && indexc2 != indexc1 && indexc2 != indexcorrect){
+                if(elementInfo[indexc2][1] > elementInfo[indexcorrect][1] && indexc2 != indexc1){
                     valid = false
                 }
             }
@@ -100,7 +100,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc3 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][1] > elementInfo[indexcorrect][1] && indexc3 != indexc2 && indexc3 != indexc1 && indexc3 != indexcorrect){
+                if(elementInfo[indexc3][1] > elementInfo[indexcorrect][1] && indexc3 != indexc2 && indexc3 != indexc1){
                     valid = false
                 }
             }
@@ -127,7 +127,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc2 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc2 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc2][2] < elementInfo[indexcorrect][2] && indexc2 != indexc1 && indexc2 != indexcorrect){
+                if(elementInfo[indexc2][2] < elementInfo[indexcorrect][2] && indexc2 != indexc1){
                     valid = false
                 }
             }
@@ -135,7 +135,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc3 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][2] < elementInfo[indexcorrect][1] && indexc3 != indexc2 && indexc3 != indexc1 && indexc3 != indexcorrect){
+                if(elementInfo[indexc3][2] < elementInfo[indexcorrect][1] && indexc3 != indexc2 && indexc3 != indexc1){
                     valid = false
                 }
             }
@@ -163,7 +163,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc2 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc2 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc2][2] > elementInfo[indexcorrect][2] && indexc2 != indexc1 && indexc2 != indexcorrect){
+                if(elementInfo[indexc2][2] > elementInfo[indexcorrect][2] && indexc2 != indexc1){
                     valid = false
                 }
             }
@@ -171,7 +171,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc3 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][2] > elementInfo[indexcorrect][2] && indexc3 != indexc2 && indexc3 != indexc1 && indexc3 != indexcorrect){
+                if(elementInfo[indexc3][2] > elementInfo[indexcorrect][2] && indexc3 != indexc2 && indexc3 != indexc1){
                     valid = false
                 }
             }
@@ -198,7 +198,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc2 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc2 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc2][3] > elementInfo[indexcorrect][3] && indexc2 != indexc1 && indexc2 != indexcorrect){
+                if(elementInfo[indexc2][3] > elementInfo[indexcorrect][3] && indexc2 != indexc1){
                     valid = false
                 }
             }
@@ -206,7 +206,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc3 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][3] > elementInfo[indexcorrect][3] && indexc3 != indexc2 && indexc3 != indexc1 && indexc3 != indexcorrect){
+                if(elementInfo[indexc3][3] > elementInfo[indexcorrect][3] && indexc3 != indexc2 && indexc3 != indexc1){
                     valid = false
                 }
             }
@@ -233,7 +233,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc2 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc2 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc2][3] < elementInfo[indexcorrect][3] && indexc2 != indexc1 && indexc2 != indexcorrect){
+                if(elementInfo[indexc2][3] < elementInfo[indexcorrect][3] && indexc2 != indexc1){
                     valid = false
                 }
             }
@@ -241,7 +241,7 @@ class TrendsInPTQuestionsLibrary {
             var indexc3 = r.nextInt(elementInfo.size)
             while(valid){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][3] < elementInfo[indexcorrect][3] && indexc3 != indexc2 && indexc3 != indexc1 && indexc3 != indexcorrect){
+                if(elementInfo[indexc3][3] < elementInfo[indexcorrect][3] && indexc3 != indexc2 && indexc3 != indexc1){
                     valid = false
                 }
             }
@@ -311,8 +311,6 @@ class TrendsInPTQuestionsLibrary {
             this.choice2 ="They have less electrons in their outer shell"
             this.choice3= "They don’t follow the octet rule"
             this.correctAnswer ="They have more electrons in their outer shell "
-
-
             val question =" Why are anions larger than neutral atoms?"
             return question
         }else if(index == 15){

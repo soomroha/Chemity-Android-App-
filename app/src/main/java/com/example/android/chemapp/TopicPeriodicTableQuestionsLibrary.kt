@@ -172,7 +172,7 @@ class TopicPeriodicTableQuestionsLibrary {
             var valid = true
             while (valid ) {
                 indexc1 = r.nextInt(elementInfo.size)
-                if(indexc1 != indexcorrect && elementInfo[indexc1][2] != group){
+                if(elementInfo[indexc1][2] != group){
                     valid = false
                 }
             }
@@ -180,7 +180,7 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexc2 = r.nextInt(elementInfo.size)
-                if(indexc2 != indexcorrect && elementInfo[indexc2][2] != group && indexc2 != indexc1 ){
+                if(elementInfo[indexc2][2] != group && indexc2 != indexc1 && elementInfo[indexc2][2] != elementInfo[indexc1][2]){
                     valid = false
                 }
             }
@@ -188,7 +188,7 @@ class TopicPeriodicTableQuestionsLibrary {
             valid = true
             while (valid ) {
                 indexc3 = r.nextInt(elementInfo.size)
-                if(indexc3 != indexcorrect && elementInfo[indexc3][2] != group && indexc3 != indexc1 && indexc3 != indexc2){
+                if(elementInfo[indexc3][2] != group && indexc3 != indexc1 && indexc3 != indexc2 && elementInfo[indexc3][2] != elementInfo[indexc2][2] && elementInfo[indexc3][2] != elementInfo[indexc1][2]){
                     valid = false
                 }
             }
@@ -201,8 +201,8 @@ class TopicPeriodicTableQuestionsLibrary {
             val question = "Which group does $name belong to?"
             return question
         } else if (index == 5) {
-            val indexcorrect = r.nextInt(elementInfo.size)
-            val staygroup = elementInfo[indexcorrect][2]
+            val keepgroupindex = r.nextInt(elementInfo.size)
+            val staygroup = elementInfo[keepgroupindex][2]
 
             var indexc1 = r.nextInt(elementInfo.size)
             var valid = true
@@ -263,7 +263,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][2] != "Transition-Metal" && indexc1 != indexcorrect){
+                if(elementInfo[indexc1][2] != "Transition-Metal"){
                     isnottransmetal = false
                 }
             }
@@ -272,7 +272,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][2] != "Transition-Metal" && indexc2 != indexcorrect && indexc2 != indexc1){
+                if(elementInfo[indexc2][2] != "Transition-Metal" && indexc2 != indexc1){
                     isnottransmetal = false
                 }
             }
@@ -281,7 +281,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnottransmetal = true
             while(isnottransmetal){
                 indexc3 = r.nextInt(elementInfo.size)
-                if(elementInfo[indexc3][2] != "Transition-Metal" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
+                if(elementInfo[indexc3][2] != "Transition-Metal"  && indexc3 != indexc2 && indexc3 != indexc1){
                     isnottransmetal = false
                 }
             }
@@ -306,7 +306,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnothalogen = true
             while(isnothalogen){
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][2] != "Halogen" && indexc1 != indexcorrect){
+                if(elementInfo[indexc1][2] != "Halogen"){
                     isnothalogen = false
                 }
             }
@@ -315,7 +315,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnothalogen = true
             while(isnothalogen){
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][2] != "Halogen" && indexc2 != indexcorrect && indexc2 != indexc1){
+                if(elementInfo[indexc2][2] != "Halogen" && indexc2 != indexc1){
                     isnothalogen = false
                 }
             }
@@ -324,7 +324,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnothalogen = true
             while(isnothalogen){
                 indexc3 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc3][2] != "Halogen" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
+                if(elementInfo[indexc3][2] != "Halogen" && indexc3 != indexc2 && indexc3 != indexc1){
                     isnothalogen = false
                 }
             }
@@ -350,7 +350,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc1 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc1][2] != "Noble-Gases" && indexc1 != indexcorrect){
+                if(elementInfo[indexc1][2] != "Noble-Gases"){
                     isnotnoblegas = false
                 }
             }
@@ -359,7 +359,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc2 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc2][2] != "Noble-Gases" && indexc2 != indexcorrect && indexc2 != indexc1){
+                if(elementInfo[indexc2][2] != "Noble-Gases" && indexc2 != indexc1){
                     isnotnoblegas = false
                 }
             }
@@ -368,7 +368,7 @@ class TopicPeriodicTableQuestionsLibrary {
             isnotnoblegas = true
             while(isnotnoblegas){
                 indexc3 = r.nextInt(elementInfo.size) + 0
-                if(elementInfo[indexc3][2] != "Noble-Gases" && indexc3 != indexcorrect && indexc3 != indexc2 && indexc3 != indexc1){
+                if(elementInfo[indexc3][2] != "Noble-Gases" && indexc3 != indexc2 && indexc3 != indexc1){
                     isnotnoblegas = false
                 }
             }
@@ -419,9 +419,7 @@ class TopicPeriodicTableQuestionsLibrary {
             this.correctAnswer = "Groups 1"
             val question = "Alkali Metals are found in which group?"
             return question
-        }/*else if(index == 14){
-            //Lewis Dot
-        }*/
+        }
 
 
         return ""
