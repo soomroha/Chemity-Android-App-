@@ -137,7 +137,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/topic5"
+                android:id="@+id/Interforces"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:orientation="horizontal">
@@ -155,7 +155,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Chemical Bonds"
+                    android:text="Intermolecular Forces"
                     android:gravity="center"/>
 
                 <ProgressBar

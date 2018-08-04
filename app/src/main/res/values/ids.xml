@@ -17,4 +17,6 @@
     <string name="leaderboard_charelements_id" translatable="false">CgkIufeiq64XEAIQAw</string>
     <!-- leaderboard Trends In Periodic Table -->
     <string name="leaderboard_trendsinpt_id" translatable="false">CgkIufeiq64XEAIQBA</string>
+    <!-- leaderboard Intermolecular forces -->
+    <string name="leaerboard_interforces_id" translatable="false">CgkIufeiq64XEAIQBQ</string>
 </resources>
