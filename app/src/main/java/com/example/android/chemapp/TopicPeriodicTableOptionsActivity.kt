@@ -10,6 +10,9 @@ import com.google.android.gms.games.Games
 import kotlinx.android.synthetic.main.topicperiodictable_options.*
 import kotlinx.android.synthetic.main.topicperiodictable_options.topicperiodictablePractice
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+import com.google.android.gms.tasks.OnSuccessListener
+
+
 
 class TopicPeriodicTableOptionsActivity : AppCompatActivity() {
 
@@ -30,13 +33,10 @@ class TopicPeriodicTableOptionsActivity : AppCompatActivity() {
             Toast.makeText(this, "You need to sign in!", Toast.LENGTH_SHORT).show()
         }
         else {
-            val leaderBoardClient = Games.getLeaderboardsClient(this@TopicPeriodicTableOptionsActivity, acc)
-            Games.getLeaderboardsClient(this, acc)
-            .getLeaderboardIntent(getString(R.string.leaderboard_periodic_table_id))
-            .addOnSuccessListener {
-            intent -> ActivityCompat.startActivityForResult(this, intent, RC_LEADERBOARD_UI, null)
-            Toast.makeText(this, "success", Toast.LENGTH_SHORT).show()
-            }
+            Toast.makeText(this, "ahhhhhhhhhh", Toast.LENGTH_SHORT).show()
+            Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
+                    .getLeaderboardIntent("CgkIufeiq64XEAIQAg")
+                    .addOnSuccessListener { intent -> startActivityForResult(intent, RC_LEADERBOARD_UI) }
         }
 
         }
