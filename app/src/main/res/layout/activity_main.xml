@@ -7,14 +7,14 @@
     tools:context="com.example.android.chemapp.MainActivity">
 
 
-
     <ScrollView
-        android:layout_width="387dp"
-        android:layout_height="550dp">
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
@@ -35,15 +35,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Atoms, Ions,  Compounds"
                     android:gravity="center"
-                    />
+                    android:text="Atoms, Ions,  Compounds" />
 
                 <ProgressBar
                     style="?android:attr/progressBarStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:progress="25" />
 
             </LinearLayout>
@@ -52,6 +52,7 @@
                 android:id="@+id/topicperiodictable"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -60,7 +61,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
-                    app:srcCompat="@drawable/atom" />
+                    app:srcCompat="@drawable/periodic" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -74,6 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:progress="25" />
 
             </LinearLayout>
@@ -82,6 +84,7 @@
                 android:id="@+id/characteristicselement"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -89,7 +92,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
-                    app:srcCompat="@drawable/atom" />
+                    app:srcCompat="@drawable/characteristics" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -103,6 +106,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:progress="25" />
 
             </LinearLayout>
@@ -111,6 +115,7 @@
                 android:id="@+id/TrendsinPT"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -118,20 +123,21 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
-                    app:srcCompat="@drawable/atom" />
+                    app:srcCompat="@drawable/trends" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Trends In The Periodic Table"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:text="Trends In The Periodic Table" />
 
                 <ProgressBar
                     style="?android:attr/progressBarStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:progress="25" />
 
             </LinearLayout>
@@ -140,6 +146,7 @@
                 android:id="@+id/Interforces"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -148,15 +155,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
-                    app:srcCompat="@drawable/atom" />
+                    app:srcCompat="@drawable/forces" />
 
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Intermolecular Forces"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:text="Intermolecular Forces" />
 
                 <ProgressBar
                     android:id="@+id/progressBar2"
@@ -164,6 +171,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:progress="25" />
 
             </LinearLayout>
@@ -172,25 +180,10 @@
 
     <FrameLayout
         android:id="@+id/container"
-        android:layout_width="381dp"
-        android:layout_height="457dp"
+        android:layout_width="1000dp"
+        android:layout_height="0dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigationView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="0dp"
-        android:layout_marginStart="0dp"
-        android:background="?android:attr/windowBackground"
-        app:itemBackground="@color/colorPrimary"
-        app:itemIconTint="@color/white"
-        app:itemTextColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/navigation" />
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="2dp" />
 
 </android.support.constraint.ConstraintLayout>

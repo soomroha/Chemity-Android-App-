@@ -49,15 +49,6 @@ class MainActivity : AppCompatActivity() {
         var mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
 
-
-
-        //toolbar = supportActionBar!!
-
-        val bottomNavigation: BottomNavigationView = findViewById(R.id.navigationView)
-
-        bottomNavigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
-
-
         topic1.setOnClickListener(object: View.OnClickListener {
             override fun onClick(view: View): Unit {
                 // Handler code here.
