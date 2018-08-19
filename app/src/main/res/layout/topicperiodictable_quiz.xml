@@ -48,7 +48,7 @@
         android:gravity="center"
         android:text="TextView"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textSize="16sp"
+        android:textSize="18sp"
         tools:text="10:00" />
 
     <me.zhanghai.android.materialprogressbar.MaterialProgressBar
@@ -68,6 +68,8 @@
         android:layout_height="60dp"
         android:layout_above="@+id/topicperiodictableanswer2"
         android:layout_centerHorizontal="true"
+        android:background="@color/lightblue"
+        android:textSize="18sp"
         android:text="Button" />
 
     <TextView
@@ -88,6 +90,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="61dp"
+        android:background="@color/lightgreen"
+        android:textSize="18sp"
         android:text="Button" />
 
     <Button
@@ -96,6 +100,8 @@
         android:layout_height="60dp"
         android:layout_above="@+id/topicperiodictableanswer4"
         android:layout_centerHorizontal="true"
+        android:background="@color/lightpink"
+        android:textSize="18sp"
         android:text="Button" />
 
     <Button
@@ -104,6 +110,8 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:background="@color/lightpurple"
+        android:textSize="18sp"
         android:text="Button" />
 
 </RelativeLayout>
