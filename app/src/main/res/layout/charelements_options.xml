@@ -2,6 +2,7 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/mainGrid"
+    android:background="@color/lightorange"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="8"
@@ -36,8 +37,9 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
+            android:textStyle="bold"
             android:text="Learn"
-            android:textSize="25dp" />
+            android:textSize="27dp" />
 
     </LinearLayout>
 
@@ -63,9 +65,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:textStyle="bold"
             android:gravity="center"
             android:text="Practice"
-            android:textSize="25dp" />
+            android:textSize="27dp" />
 
     </LinearLayout>
 
@@ -91,10 +94,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:gravity="center"
             android:text="MiniGames"
-            android:textSize="25dp" />
+            android:textSize="27dp" />
 
     </LinearLayout>
 
@@ -122,7 +126,8 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Leaderboard"
-            android:textSize="25dp" />
+            android:textStyle="bold"
+            android:textSize="27dp" />
 
     </LinearLayout>
 

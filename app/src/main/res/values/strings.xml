@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ChemApp</string>
     <string name="Other_error">signin_other_error</string>
+    <string name="alpha">1</string>
 </resources>

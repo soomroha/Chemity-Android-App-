@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/mainGrid"
     android:layout_width="match_parent"
+    android:background="@color/lightorange"
     android:layout_height="match_parent"
     android:layout_weight="8"
     android:alignmentMode="alignMargins"
@@ -36,8 +37,9 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
+            android:textStyle="bold"
             android:text="Learn"
-            android:textSize="25dp" />
+            android:textSize="27dp" />
 
     </LinearLayout>
 
@@ -65,7 +67,8 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Practice"
-            android:textSize="25dp" />
+            android:textStyle="bold"
+            android:textSize="27dp" />
 
     </LinearLayout>
 
@@ -94,7 +97,8 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="MiniGames"
-            android:textSize="25dp" />
+            android:textStyle="bold"
+            android:textSize="27dp" />
 
     </LinearLayout>
 
@@ -122,7 +126,8 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Leaderboard"
-            android:textSize="25dp" />
+            android:textStyle="bold"
+            android:textSize="27dp" />
 
     </LinearLayout>
 
