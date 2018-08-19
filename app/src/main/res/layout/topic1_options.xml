@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="8"
+    android:background="@drawable/bookshelf"
     android:alignmentMode="alignMargins"
     android:columnCount="2"
     android:columnOrderPreserved="false"
