@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/mainGrid"
     android:layout_width="match_parent"
-    android:background="#00FF00"
+    android:background="@color/brightgreen"
     android:layout_height="match_parent"
     android:layout_weight="8"
     android:alignmentMode="alignMargins"
@@ -133,4 +133,3 @@
 
 
 </GridLayout>
-
