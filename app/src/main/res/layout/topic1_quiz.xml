@@ -91,6 +91,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="61dp"
         android:background="@color/lightgreen"
+        android:textSize="18sp"
         android:text="Button" />
 
     <Button
